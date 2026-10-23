@@ -1,0 +1,105 @@
+{
+  "AUS|Airport Closure|!AUS 10/095 AUS AD AP CLSD TO GA ACFT EXC PPR SIGNATURE 512-530-5451 OR ATLANTIC 512-382-8810 OR MILLION AIR 737-208-1400 2610220500-2610262100|Oct 22 at 05:00 UTC.": {
+    "airport": "AUS",
+    "fields": {
+      "arpt": "AUS",
+      "reason": "!AUS 10/095 AUS AD AP CLSD TO GA ACFT EXC PPR SIGNATURE 512-530-5451 OR ATLANTIC 512-382-8810 OR MILLION AIR 737-208-1400 2610220500-2610262100",
+      "reopen": "Oct 26 at 21:00 UTC.",
+      "start": "Oct 22 at 05:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "AUS|Ground Delay Program|": {
+    "airport": "AUS",
+    "fields": {
+      "arpt": "AUS",
+      "avg": "1 hour and 15 minutes",
+      "max": "2 hours and 14 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
+  },
+  "DAL|Arrival/Departure Delay|": {
+    "airport": "DAL",
+    "fields": {
+      "arpt": "DAL",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "TM Initiatives:MIT:VOL",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "DEN|Ground Delay Program|": {
+    "airport": "DEN",
+    "fields": {
+      "arpt": "DEN",
+      "avg": "1 hour and 6 minutes",
+      "max": "2 hours and 26 minutes",
+      "reason": "runway construction"
+    },
+    "type": "Ground Delay Program"
+  },
+  "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
+    "airport": "LAX",
+    "fields": {
+      "arpt": "LAX",
+      "reason": "!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600",
+      "reopen": "May 28 at 16:00 UTC.",
+      "start": "May 27 at 18:26 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "LGA|Arrival/Departure Delay|": {
+    "airport": "LGA",
+    "fields": {
+      "arpt": "LGA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "reason": "!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800",
+      "reopen": "Jan 01 at 08:00 UTC.",
+      "start": "Oct 01 at 16:33 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Volume",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "30 minutes",
+      "max": "1 hour and 34 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
+  },
+  "YUL|Ground Delay Program|": {
+    "airport": "YUL",
+    "fields": {
+      "arpt": "YUL",
+      "avg": "26 minutes",
+      "max": "1 hour and 2 minutes",
+      "reason": "runway construction"
+    },
+    "type": "Ground Delay Program"
+  }
+}
