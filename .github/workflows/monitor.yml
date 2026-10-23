@@ -1,10 +1,15 @@
-
 name: FAA NAS Status Monitor
 
 on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      send_test_push:
+        description: "Send an iPhone test notification instead of checking the FAA"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -25,12 +30,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run FAA monitor
+      - name: Check notification secret
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "::error::NTFY_TOPIC secret is missing. Add it in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Send iPhone test notification
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.send_test_push }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python monitor.py --test-push
+
+      - name: Check FAA status
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.send_test_push }}
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python monitor.py
 
       - name: Save monitoring state
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.send_test_push }}
         run: |
           if [ -f faa_state.json ]; then
             git config user.name "github-actions[bot]"
