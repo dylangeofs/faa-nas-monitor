@@ -28,7 +28,7 @@ jobs:
       - name: Run FAA monitor
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python monitor.py --once
+        run: python monitor.py
 
       - name: Save monitoring state
         run: |
