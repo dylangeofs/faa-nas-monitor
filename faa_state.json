@@ -1,4 +1,14 @@
 {
+  "ALO|Airport Closure|!ALO 10/031 ALO AD AP CLSD EXC SKED ACFT AND HEL DLY 2200-1000 2610232200-2610251000|Oct 23 at 22:00 UTC.": {
+    "airport": "ALO",
+    "fields": {
+      "arpt": "ALO",
+      "reason": "!ALO 10/031 ALO AD AP CLSD EXC SKED ACFT AND HEL DLY 2200-1000 2610232200-2610251000",
+      "reopen": "Oct 25 at 10:00 UTC.",
+      "start": "Oct 23 at 22:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "AUS|Airport Closure|!AUS 10/095 AUS AD AP CLSD TO GA ACFT EXC PPR SIGNATURE 512-530-5451 OR ATLANTIC 512-382-8810 OR MILLION AIR 737-208-1400 2610220500-2610262100|Oct 22 at 05:00 UTC.": {
     "airport": "AUS",
     "fields": {
@@ -8,27 +18,6 @@
       "start": "Oct 22 at 05:00 UTC."
     },
     "type": "Airport Closure"
-  },
-  "AUS|Ground Delay Program|": {
-    "airport": "AUS",
-    "fields": {
-      "arpt": "AUS",
-      "avg": "1 hour and 15 minutes",
-      "max": "2 hours and 14 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
-  },
-  "DAL|Arrival/Departure Delay|": {
-    "airport": "DAL",
-    "fields": {
-      "arpt": "DAL",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "TM Initiatives:MIT:VOL",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "DEN|Ground Delay Program|": {
     "airport": "DEN",
@@ -50,13 +39,13 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Arrival/Departure Delay|": {
-    "airport": "LGA",
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
     "fields": {
-      "arpt": "LGA",
+      "arpt": "MIA",
       "max": "30 minutes",
       "min": "16 minutes",
-      "reason": "WX:Wind",
+      "reason": "RWY:Construction",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -71,17 +60,6 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Arrival/Departure Delay|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Volume",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SAN|Ground Delay Program|": {
     "airport": "SAN",
     "fields": {
@@ -89,16 +67,6 @@
       "avg": "30 minutes",
       "max": "1 hour and 34 minutes",
       "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
-  "YUL|Ground Delay Program|": {
-    "airport": "YUL",
-    "fields": {
-      "arpt": "YUL",
-      "avg": "26 minutes",
-      "max": "1 hour and 2 minutes",
-      "reason": "runway construction"
     },
     "type": "Ground Delay Program"
   }
