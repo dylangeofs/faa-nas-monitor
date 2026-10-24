@@ -9,6 +9,16 @@
     },
     "type": "Airport Closure"
   },
+  "ASE|Airport Closure|!ASE 10/190 ASE AD AP CLSD EXC LIFE FLT AND SAR HEL 30 MIN PPR 970-379-8406 2610240500-2610241300|Oct 24 at 05:00 UTC.": {
+    "airport": "ASE",
+    "fields": {
+      "arpt": "ASE",
+      "reason": "!ASE 10/190 ASE AD AP CLSD EXC LIFE FLT AND SAR HEL 30 MIN PPR 970-379-8406 2610240500-2610241300",
+      "reopen": "Oct 24 at 13:00 UTC.",
+      "start": "Oct 24 at 05:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "AUS|Airport Closure|!AUS 10/095 AUS AD AP CLSD TO GA ACFT EXC PPR SIGNATURE 512-530-5451 OR ATLANTIC 512-382-8810 OR MILLION AIR 737-208-1400 2610220500-2610262100|Oct 22 at 05:00 UTC.": {
     "airport": "AUS",
     "fields": {
@@ -38,17 +48,6 @@
       "start": "Oct 24 at 04:02 UTC."
     },
     "type": "Airport Closure"
-  },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "RWY:Construction",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
