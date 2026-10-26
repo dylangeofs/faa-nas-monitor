@@ -9,15 +9,16 @@
     },
     "type": "Airport Closure"
   },
-  "AUS|Ground Delay Program|": {
-    "airport": "AUS",
+  "LAS|Arrival/Departure Delay|": {
+    "airport": "LAS",
     "fields": {
-      "arpt": "AUS",
-      "avg": "24 minutes",
-      "max": "1 hour and 12 minutes",
-      "reason": "runway construction"
+      "arpt": "LAS",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "RWY:Rwy Change - Operational Advantage",
+      "trend": "Increasing"
     },
-    "type": "Ground Delay Program"
+    "type": "Arrival/Departure Delay"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -28,17 +29,6 @@
       "start": "May 27 at 18:26 UTC."
     },
     "type": "Airport Closure"
-  },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "RWY:Construction",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
