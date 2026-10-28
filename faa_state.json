@@ -1,4 +1,14 @@
 {
+  "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "reason": "!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300",
+      "reopen": "Jan 27 at 23:00 UTC.",
+      "start": "Oct 28 at 19:26 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
     "fields": {
@@ -18,6 +28,17 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SEA|Arrival/Departure Delay|": {
+    "airport": "SEA",
+    "fields": {
+      "arpt": "SEA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "RWY:Construction",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
