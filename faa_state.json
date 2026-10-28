@@ -1,4 +1,14 @@
 {
+  "EWR|Ground Delay Program|": {
+    "airport": "EWR",
+    "fields": {
+      "arpt": "EWR",
+      "avg": "1 hour and 5 minutes",
+      "max": "2 hours and 1 minute",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -29,17 +39,6 @@
     },
     "type": "Airport Closure"
   },
-  "SEA|Arrival/Departure Delay|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "RWY:Construction",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
     "fields": {
@@ -49,5 +48,15 @@
       "start": "Oct 27 at 06:30 UTC."
     },
     "type": "Airport Closure"
+  },
+  "TEB|Ground Delay Program|": {
+    "airport": "TEB",
+    "fields": {
+      "arpt": "TEB",
+      "avg": "2 hours and 8 minutes",
+      "max": "3 hours and 56 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
   }
 }
