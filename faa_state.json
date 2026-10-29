@@ -1,14 +1,4 @@
 {
-  "ASE|Airport Closure|!ASE 10/264 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610290500-2610291300|Oct 29 at 05:00 UTC.": {
-    "airport": "ASE",
-    "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 10/264 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610290500-2610291300",
-      "reopen": "Oct 29 at 13:00 UTC.",
-      "start": "Oct 29 at 05:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -29,26 +19,6 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Airport Closure|!LGA 10/350 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610290359-2610291000|Oct 29 at 03:59 UTC.": {
-    "airport": "LGA",
-    "fields": {
-      "arpt": "LGA",
-      "reason": "!LGA 10/350 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610290359-2610291000",
-      "reopen": "Oct 29 at 10:00 UTC.",
-      "start": "Oct 29 at 03:59 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "SAF|Airport Closure|!SAF 10/043 SAF AD AP CLSD EXC HEL 2610290330-2610291200|Oct 29 at 03:30 UTC.": {
-    "airport": "SAF",
-    "fields": {
-      "arpt": "SAF",
-      "reason": "!SAF 10/043 SAF AD AP CLSD EXC HEL 2610290330-2610291200",
-      "reopen": "Oct 29 at 12:00 UTC.",
-      "start": "Oct 29 at 03:30 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -59,6 +29,16 @@
     },
     "type": "Airport Closure"
   },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "28 minutes",
+      "max": "1 hour and 4 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
+  },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
     "fields": {
@@ -68,5 +48,16 @@
       "start": "Oct 27 at 06:30 UTC."
     },
     "type": "Airport Closure"
+  },
+  "TEB|Arrival/Departure Delay|": {
+    "airport": "TEB",
+    "fields": {
+      "arpt": "TEB",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Volume",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   }
 }
