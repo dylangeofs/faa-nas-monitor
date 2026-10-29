@@ -1,14 +1,4 @@
 {
-  "EWR|Ground Delay Program|": {
-    "airport": "EWR",
-    "fields": {
-      "arpt": "EWR",
-      "avg": "1 hour and 5 minutes",
-      "max": "2 hours and 1 minute",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -18,6 +8,27 @@
       "start": "Oct 28 at 19:26 UTC."
     },
     "type": "Airport Closure"
+  },
+  "LAS|Arrival/Departure Delay|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "LAS|Ground Delay Program|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "avg": "42 minutes",
+      "max": "2 hours and 4 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -48,15 +59,5 @@
       "start": "Oct 27 at 06:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Ground Delay Program|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "avg": "2 hours and 8 minutes",
-      "max": "3 hours and 56 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
   }
 }
