@@ -1,25 +1,13 @@
 {
-  "DCA|Arrival/Departure Delay|": {
-    "airport": "DCA",
+  "ASE|Airport Closure|!ASE 10/265 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610300500-2610301300|Oct 30 at 05:00 UTC.": {
+    "airport": "ASE",
     "fields": {
-      "arpt": "DCA",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
+      "arpt": "ASE",
+      "reason": "!ASE 10/265 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610300500-2610301300",
+      "reopen": "Oct 30 at 13:00 UTC.",
+      "start": "Oct 30 at 05:00 UTC."
     },
-    "type": "Arrival/Departure Delay"
-  },
-  "HOU|Arrival/Departure Delay|": {
-    "airport": "HOU",
-    "fields": {
-      "arpt": "HOU",
-      "max": "44 minutes",
-      "min": "30 minutes",
-      "reason": "OTHER:",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
+    "type": "Airport Closure"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -31,24 +19,13 @@
     },
     "type": "Airport Closure"
   },
-  "LAS|Arrival/Departure Delay|": {
-    "airport": "LAS",
-    "fields": {
-      "arpt": "LAS",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "WX:Wind",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Ground Delay Program|": {
     "airport": "LAS",
     "fields": {
       "arpt": "LAS",
       "avg": "2 hours and 21 minutes",
       "max": "3 hours and 45 minutes",
-      "reason": "other"
+      "reason": "STAFFING"
     },
     "type": "Ground Delay Program"
   },
@@ -62,16 +39,15 @@
     },
     "type": "Airport Closure"
   },
-  "ORD|Arrival/Departure Delay|": {
-    "airport": "ORD",
+  "LGA|Airport Closure|!LGA 10/375 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610300410-2610301000|Oct 30 at 04:10 UTC.": {
+    "airport": "LGA",
     "fields": {
-      "arpt": "ORD",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Multi-taxi",
-      "trend": "Increasing"
+      "arpt": "LGA",
+      "reason": "!LGA 10/375 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610300410-2610301000",
+      "reopen": "Oct 30 at 10:00 UTC.",
+      "start": "Oct 30 at 04:10 UTC."
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Airport Closure"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -82,16 +58,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "42 minutes",
-      "max": "1 hour and 20 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
