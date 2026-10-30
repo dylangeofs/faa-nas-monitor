@@ -1,14 +1,4 @@
 {
-  "ASE|Airport Closure|!ASE 10/265 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610300500-2610301300|Oct 30 at 05:00 UTC.": {
-    "airport": "ASE",
-    "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 10/265 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2610300500-2610301300",
-      "reopen": "Oct 30 at 13:00 UTC.",
-      "start": "Oct 30 at 05:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -19,16 +9,6 @@
     },
     "type": "Airport Closure"
   },
-  "LAS|Ground Delay Program|": {
-    "airport": "LAS",
-    "fields": {
-      "arpt": "LAS",
-      "avg": "2 hours and 21 minutes",
-      "max": "3 hours and 45 minutes",
-      "reason": "STAFFING"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
     "fields": {
@@ -36,16 +16,6 @@
       "reason": "!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600",
       "reopen": "May 28 at 16:00 UTC.",
       "start": "May 27 at 18:26 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "LGA|Airport Closure|!LGA 10/375 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610300410-2610301000|Oct 30 at 04:10 UTC.": {
-    "airport": "LGA",
-    "fields": {
-      "arpt": "LGA",
-      "reason": "!LGA 10/375 LGA AD AP CLSD EXC HEL 30MIN PPR 718-533-3700 2610300410-2610301000",
-      "reopen": "Oct 30 at 10:00 UTC.",
-      "start": "Oct 30 at 04:10 UTC."
     },
     "type": "Airport Closure"
   },
