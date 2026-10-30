@@ -1,12 +1,23 @@
 {
+  "DCA|Arrival/Departure Delay|": {
+    "airport": "DCA",
+    "fields": {
+      "arpt": "DCA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "HOU|Arrival/Departure Delay|": {
     "airport": "HOU",
     "fields": {
       "arpt": "HOU",
-      "max": "1 hour",
-      "min": "46 minutes",
+      "max": "44 minutes",
+      "min": "30 minutes",
       "reason": "OTHER:",
-      "trend": "Increasing"
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -20,6 +31,27 @@
     },
     "type": "Airport Closure"
   },
+  "LAS|Arrival/Departure Delay|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "LAS|Ground Delay Program|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "avg": "2 hours and 21 minutes",
+      "max": "3 hours and 45 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
+  },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
     "fields": {
@@ -30,6 +62,17 @@
     },
     "type": "Airport Closure"
   },
+  "ORD|Arrival/Departure Delay|": {
+    "airport": "ORD",
+    "fields": {
+      "arpt": "ORD",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Multi-taxi",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -39,6 +82,16 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "42 minutes",
+      "max": "1 hour and 20 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
