@@ -19,6 +19,17 @@
     },
     "type": "Airport Closure"
   },
+  "PHX|Arrival/Departure Delay|": {
+    "airport": "PHX",
+    "fields": {
+      "arpt": "PHX",
+      "max": "1 hour and 15 minutes",
+      "min": "1 hour and 1 minute",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -28,6 +39,16 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "32 minutes",
+      "max": "56 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
     "airport": "SNA",
