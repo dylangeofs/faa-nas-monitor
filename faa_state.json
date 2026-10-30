@@ -1,4 +1,26 @@
 {
+  "BOS|Arrival/Departure Delay|": {
+    "airport": "BOS",
+    "fields": {
+      "arpt": "BOS",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "ZBW / WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "BOS|Arrival/Departure Delay||8492742e1820": {
+    "airport": "BOS",
+    "fields": {
+      "arpt": "BOS",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -8,6 +30,17 @@
       "start": "Oct 28 at 19:26 UTC."
     },
     "type": "Airport Closure"
+  },
+  "LAS|Arrival/Departure Delay|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "max": "29 minutes",
+      "min": "15 minutes",
+      "reason": "WX:Thunderstorms",
+      "trend": "Decreasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -19,16 +52,15 @@
     },
     "type": "Airport Closure"
   },
-  "PHX|Arrival/Departure Delay|": {
+  "PHX|Ground Delay Program|": {
     "airport": "PHX",
     "fields": {
       "arpt": "PHX",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
+      "avg": "40 minutes",
+      "max": "3 hours and 3 minutes",
+      "reason": "THUNDERSTORMS"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -37,26 +69,6 @@
       "reason": "!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800",
       "reopen": "Jan 01 at 08:00 UTC.",
       "start": "Oct 01 at 16:33 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "32 minutes",
-      "max": "56 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
-  "SNA|Airport Closure|!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315|Oct 27 at 06:30 UTC.": {
-    "airport": "SNA",
-    "fields": {
-      "arpt": "SNA",
-      "reason": "!SNA 10/051 SNA AD AP CLSD DLY 0630-1315 2610270630-2610311315",
-      "reopen": "Oct 31 at 13:15 UTC.",
-      "start": "Oct 27 at 06:30 UTC."
     },
     "type": "Airport Closure"
   }
