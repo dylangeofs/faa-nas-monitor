@@ -1,4 +1,15 @@
 {
+  "EWR|Arrival/Departure Delay|": {
+    "airport": "EWR",
+    "fields": {
+      "arpt": "EWR",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -26,16 +37,6 @@
       "reason": "!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800",
       "reopen": "Jan 01 at 08:00 UTC.",
       "start": "Oct 01 at 16:33 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "SBY|Airport Closure|!SBY 10/069 SBY AD AP CLSD 2610310300-2610311000|Oct 31 at 03:00 UTC.": {
-    "airport": "SBY",
-    "fields": {
-      "arpt": "SBY",
-      "reason": "!SBY 10/069 SBY AD AP CLSD 2610310300-2610311000",
-      "reopen": "Oct 31 at 10:00 UTC.",
-      "start": "Oct 31 at 03:00 UTC."
     },
     "type": "Airport Closure"
   }
