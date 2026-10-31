@@ -19,17 +19,6 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Arrival/Departure Delay|": {
-    "airport": "LGA",
-    "fields": {
-      "arpt": "LGA",
-      "max": "44 minutes",
-      "min": "30 minutes",
-      "reason": "STAFF:Staffing",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -37,6 +26,16 @@
       "reason": "!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800",
       "reopen": "Jan 01 at 08:00 UTC.",
       "start": "Oct 01 at 16:33 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "SBY|Airport Closure|!SBY 10/069 SBY AD AP CLSD 2610310300-2610311000|Oct 31 at 03:00 UTC.": {
+    "airport": "SBY",
+    "fields": {
+      "arpt": "SBY",
+      "reason": "!SBY 10/069 SBY AD AP CLSD 2610310300-2610311000",
+      "reopen": "Oct 31 at 10:00 UTC.",
+      "start": "Oct 31 at 03:00 UTC."
     },
     "type": "Airport Closure"
   }
