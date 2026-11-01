@@ -1,12 +1,12 @@
 {
-  "DFW|Arrival/Departure Delay|": {
-    "airport": "DFW",
+  "DJT|Arrival/Departure Delay|": {
+    "airport": "DJT",
     "fields": {
-      "arpt": "DFW",
-      "max": "29 minutes",
-      "min": "15 minutes",
-      "reason": "WX:Low Visibility",
-      "trend": "Decreasing"
+      "arpt": "DJT",
+      "max": "1 hour and 30 minutes",
+      "min": "1 hour and 16 minutes",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -14,8 +14,8 @@
     "airport": "FLL",
     "fields": {
       "arpt": "FLL",
-      "max": "1 hour",
-      "min": "46 minutes",
+      "max": "1 hour and 45 minutes",
+      "min": "1 hour and 31 minutes",
       "reason": "TM Initiatives:MIT:WX",
       "trend": "Increasing"
     },
@@ -47,7 +47,7 @@
       "arpt": "LAS",
       "max": "30 minutes",
       "min": "16 minutes",
-      "reason": "TM Initiatives:MIT:WX",
+      "reason": "WX:Thunderstorms",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -62,14 +62,36 @@
     },
     "type": "Airport Closure"
   },
+  "MCO|Arrival/Departure Delay|": {
+    "airport": "MCO",
+    "fields": {
+      "arpt": "MCO",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
+    "fields": {
+      "arpt": "MIA",
+      "max": "1 hour and 30 minutes",
+      "min": "1 hour and 16 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "PHX|Arrival/Departure Delay|": {
     "airport": "PHX",
     "fields": {
       "arpt": "PHX",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Low Ceilings",
-      "trend": "Increasing"
+      "max": "29 minutes",
+      "min": "15 minutes",
+      "reason": "RWY:Rwy Change - Operational Necessity",
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -93,6 +115,17 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Volume",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SLN|Airport Closure|!SLN 10/022 SLN AD AP CLSD 2611011800-2611020400|Nov 01 at 18:00 UTC.": {
     "airport": "SLN",
