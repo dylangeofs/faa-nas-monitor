@@ -14,22 +14,12 @@
     "airport": "FLL",
     "fields": {
       "arpt": "FLL",
-      "max": "1 hour and 45 minutes",
-      "min": "1 hour and 31 minutes",
+      "max": "1 hour and 44 minutes",
+      "min": "1 hour and 30 minutes",
       "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
-  },
-  "FLL|Ground Delay Program|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "avg": "56 minutes",
-      "max": "2 hours and 54 minutes",
-      "reason": "thunderstorms"
-    },
-    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -40,17 +30,6 @@
       "start": "Oct 28 at 19:26 UTC."
     },
     "type": "Airport Closure"
-  },
-  "LAS|Arrival/Departure Delay|": {
-    "airport": "LAS",
-    "fields": {
-      "arpt": "LAS",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -77,32 +56,10 @@
     "airport": "MIA",
     "fields": {
       "arpt": "MIA",
-      "max": "1 hour and 30 minutes",
-      "min": "1 hour and 16 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "PHX|Arrival/Departure Delay|": {
-    "airport": "PHX",
-    "fields": {
-      "arpt": "PHX",
       "max": "29 minutes",
       "min": "15 minutes",
-      "reason": "RWY:Rwy Change - Operational Necessity",
+      "reason": "TM Initiatives:MIT:WX",
       "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "RSW|Arrival/Departure Delay|": {
-    "airport": "RSW",
-    "fields": {
-      "arpt": "RSW",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -115,17 +72,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SAN|Arrival/Departure Delay|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Volume",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SLN|Airport Closure|!SLN 10/022 SLN AD AP CLSD 2611011800-2611020400|Nov 01 at 18:00 UTC.": {
     "airport": "SLN",
