@@ -1,4 +1,37 @@
 {
+  "APF|Arrival/Departure Delay|": {
+    "airport": "APF",
+    "fields": {
+      "arpt": "APF",
+      "max": "2 hours and 15 minutes",
+      "min": "2 hours and 1 minute",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "FLL|Arrival/Departure Delay|": {
+    "airport": "FLL",
+    "fields": {
+      "arpt": "FLL",
+      "max": "2 hours and 30 minutes",
+      "min": "2 hours and 16 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "FMY|Arrival/Departure Delay|": {
+    "airport": "FMY",
+    "fields": {
+      "arpt": "FMY",
+      "max": "1 hour and 15 minutes",
+      "min": "1 hour and 1 minute",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -19,15 +52,69 @@
     },
     "type": "Airport Closure"
   },
-  "PVD|Airport Closure|!PVD 11/003 PVD AD AP CLSD EXC HEL 2611020515-2611021000|Nov 02 at 05:15 UTC.": {
-    "airport": "PVD",
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
     "fields": {
-      "arpt": "PVD",
-      "reason": "!PVD 11/003 PVD AD AP CLSD EXC HEL 2611020515-2611021000",
-      "reopen": "Nov 02 at 10:00 UTC.",
-      "start": "Nov 02 at 05:15 UTC."
+      "arpt": "MIA",
+      "max": "59 minutes",
+      "min": "45 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Decreasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "MLB|Airport Closure|!MLB 11/015 MLB AD AP CLSD TO DIVERSION ACFT 2611021434-2611030500|Nov 02 at 14:34 UTC.": {
+    "airport": "MLB",
+    "fields": {
+      "arpt": "MLB",
+      "reason": "!MLB 11/015 MLB AD AP CLSD TO DIVERSION ACFT 2611021434-2611030500",
+      "reopen": "Nov 03 at 05:00 UTC.",
+      "start": "Nov 02 at 14:34 UTC."
     },
     "type": "Airport Closure"
+  },
+  "MLB|Airport Closure|!MLB 11/024 MLB AD AP CLSD 2611021742-2611022200|Nov 02 at 17:42 UTC.": {
+    "airport": "MLB",
+    "fields": {
+      "arpt": "MLB",
+      "reason": "!MLB 11/024 MLB AD AP CLSD 2611021742-2611022200",
+      "reopen": "Nov 02 at 22:00 UTC.",
+      "start": "Nov 02 at 17:42 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "OPF|Arrival/Departure Delay|": {
+    "airport": "OPF",
+    "fields": {
+      "arpt": "OPF",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "TM Initiatives:MINIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "ORD|Arrival/Departure Delay|": {
+    "airport": "ORD",
+    "fields": {
+      "arpt": "ORD",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Low Ceilings",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "RSW|Arrival/Departure Delay|": {
+    "airport": "RSW",
+    "fields": {
+      "arpt": "RSW",
+      "max": "1 hour",
+      "min": "46 minutes",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -38,5 +125,26 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "29 minutes",
+      "max": "1 hour and 19 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
+  },
+  "SEA|Arrival/Departure Delay|": {
+    "airport": "SEA",
+    "fields": {
+      "arpt": "SEA",
+      "max": "29 minutes",
+      "min": "15 minutes",
+      "reason": "WX:Fog",
+      "trend": "Decreasing"
+    },
+    "type": "Arrival/Departure Delay"
   }
 }
