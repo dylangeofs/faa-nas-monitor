@@ -1,22 +1,12 @@
 {
-  "ASE|Airport Closure|!ASE 11/062 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611030600-2611031400|Nov 03 at 06:00 UTC.": {
-    "airport": "ASE",
+  "EWR|Arrival/Departure Delay|": {
+    "airport": "EWR",
     "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/062 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611030600-2611031400",
-      "reopen": "Nov 03 at 14:00 UTC.",
-      "start": "Nov 03 at 06:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "DAL|Arrival/Departure Delay|": {
-    "airport": "DAL",
-    "fields": {
-      "arpt": "DAL",
-      "max": "44 minutes",
-      "min": "30 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Decreasing"
+      "arpt": "EWR",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "STAFF:Staffing",
+      "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -40,16 +30,6 @@
     },
     "type": "Airport Closure"
   },
-  "MLB|Airport Closure|!MLB 11/026 MLB AD AP CLSD EXC EMERG ACFT 30MIN PPR 321-508-1319 2611022113-2611031400|Nov 02 at 21:13 UTC.": {
-    "airport": "MLB",
-    "fields": {
-      "arpt": "MLB",
-      "reason": "!MLB 11/026 MLB AD AP CLSD EXC EMERG ACFT 30MIN PPR 321-508-1319 2611022113-2611031400",
-      "reopen": "Nov 03 at 14:00 UTC.",
-      "start": "Nov 02 at 21:13 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "PVD|Airport Closure|!PVD 11/005 PVD AD AP CLSD EXC HEL DLY 0515-1030 2611030515-2611041030|Nov 03 at 05:15 UTC.": {
     "airport": "PVD",
     "fields": {
@@ -70,6 +50,16 @@
     },
     "type": "Airport Closure"
   },
+  "SFO|Ground Delay Program|": {
+    "airport": "SFO",
+    "fields": {
+      "arpt": "SFO",
+      "avg": "1 hour and 22 minutes",
+      "max": "2 hours and 44 minutes",
+      "reason": "wind"
+    },
+    "type": "Ground Delay Program"
+  },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
     "fields": {
@@ -79,5 +69,16 @@
       "start": "Nov 03 at 07:30 UTC."
     },
     "type": "Airport Closure"
+  },
+  "TEB|Arrival/Departure Delay|": {
+    "airport": "TEB",
+    "fields": {
+      "arpt": "TEB",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "STAFF:Staffing",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   }
 }
