@@ -1,11 +1,11 @@
 {
-  "EWR|Arrival/Departure Delay|": {
-    "airport": "EWR",
+  "IAH|Arrival/Departure Delay|": {
+    "airport": "IAH",
     "fields": {
-      "arpt": "EWR",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "STAFF:Staffing",
+      "arpt": "IAH",
+      "max": "1 hour and 15 minutes",
+      "min": "1 hour and 1 minute",
+      "reason": "WX:Thunderstorms",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -50,12 +50,23 @@
     },
     "type": "Airport Closure"
   },
+  "SFO|Arrival/Departure Delay|": {
+    "airport": "SFO",
+    "fields": {
+      "arpt": "SFO",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SFO|Ground Delay Program|": {
     "airport": "SFO",
     "fields": {
       "arpt": "SFO",
-      "avg": "1 hour and 22 minutes",
-      "max": "2 hours and 44 minutes",
+      "avg": "1 hour and 54 minutes",
+      "max": "8 hours and 39 minutes",
       "reason": "wind"
     },
     "type": "Ground Delay Program"
@@ -69,16 +80,5 @@
       "start": "Nov 03 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "STAFF:Staffing",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
