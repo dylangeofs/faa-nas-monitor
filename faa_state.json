@@ -1,36 +1,24 @@
 {
-  "APF|Arrival/Departure Delay|": {
-    "airport": "APF",
-    "fields": {
-      "arpt": "APF",
-      "max": "2 hours and 15 minutes",
-      "min": "2 hours and 1 minute",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "FLL|Arrival/Departure Delay|": {
     "airport": "FLL",
     "fields": {
       "arpt": "FLL",
-      "max": "2 hours and 30 minutes",
-      "min": "2 hours and 16 minutes",
+      "max": "2 hours and 15 minutes",
+      "min": "2 hours and 1 minute",
       "reason": "TM Initiatives:MIT:WX",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
   },
-  "FMY|Arrival/Departure Delay|": {
-    "airport": "FMY",
+  "FLL|Ground Delay Program|": {
+    "airport": "FLL",
     "fields": {
-      "arpt": "FMY",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
+      "arpt": "FLL",
+      "avg": "2 hours and 13 minutes",
+      "max": "10 hours",
+      "reason": "thunderstorms"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -56,65 +44,32 @@
     "airport": "MIA",
     "fields": {
       "arpt": "MIA",
-      "max": "59 minutes",
-      "min": "45 minutes",
+      "max": "1 hour and 45 minutes",
+      "min": "1 hour and 31 minutes",
       "reason": "TM Initiatives:MIT:WX",
-      "trend": "Decreasing"
+      "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
   },
-  "MLB|Airport Closure|!MLB 11/015 MLB AD AP CLSD TO DIVERSION ACFT 2611021434-2611030500|Nov 02 at 14:34 UTC.": {
+  "MIA|Ground Delay Program|": {
+    "airport": "MIA",
+    "fields": {
+      "arpt": "MIA",
+      "avg": "2 hours and 26 minutes",
+      "max": "7 hours and 30 minutes",
+      "reason": "thunderstorms"
+    },
+    "type": "Ground Delay Program"
+  },
+  "MLB|Airport Closure|!MLB 11/026 MLB AD AP CLSD EXC EMERG ACFT 30MIN PPR 321-508-1319 2611022113-2611031400|Nov 02 at 21:13 UTC.": {
     "airport": "MLB",
     "fields": {
       "arpt": "MLB",
-      "reason": "!MLB 11/015 MLB AD AP CLSD TO DIVERSION ACFT 2611021434-2611030500",
-      "reopen": "Nov 03 at 05:00 UTC.",
-      "start": "Nov 02 at 14:34 UTC."
+      "reason": "!MLB 11/026 MLB AD AP CLSD EXC EMERG ACFT 30MIN PPR 321-508-1319 2611022113-2611031400",
+      "reopen": "Nov 03 at 14:00 UTC.",
+      "start": "Nov 02 at 21:13 UTC."
     },
     "type": "Airport Closure"
-  },
-  "MLB|Airport Closure|!MLB 11/024 MLB AD AP CLSD 2611021742-2611022200|Nov 02 at 17:42 UTC.": {
-    "airport": "MLB",
-    "fields": {
-      "arpt": "MLB",
-      "reason": "!MLB 11/024 MLB AD AP CLSD 2611021742-2611022200",
-      "reopen": "Nov 02 at 22:00 UTC.",
-      "start": "Nov 02 at 17:42 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "OPF|Arrival/Departure Delay|": {
-    "airport": "OPF",
-    "fields": {
-      "arpt": "OPF",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "TM Initiatives:MINIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "ORD|Arrival/Departure Delay|": {
-    "airport": "ORD",
-    "fields": {
-      "arpt": "ORD",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Low Ceilings",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "RSW|Arrival/Departure Delay|": {
-    "airport": "RSW",
-    "fields": {
-      "arpt": "RSW",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -126,6 +81,17 @@
     },
     "type": "Airport Closure"
   },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SAN|Ground Delay Program|": {
     "airport": "SAN",
     "fields": {
@@ -135,16 +101,5 @@
       "reason": "airport volume"
     },
     "type": "Ground Delay Program"
-  },
-  "SEA|Arrival/Departure Delay|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "max": "29 minutes",
-      "min": "15 minutes",
-      "reason": "WX:Fog",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
