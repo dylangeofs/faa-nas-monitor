@@ -29,16 +29,6 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "37 minutes",
-      "max": "1 hour and 11 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
     "fields": {
