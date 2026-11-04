@@ -1,10 +1,21 @@
 {
+  "FLL|Arrival/Departure Delay|": {
+    "airport": "FLL",
+    "fields": {
+      "arpt": "FLL",
+      "max": "1 hour",
+      "min": "46 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "IAH|Arrival/Departure Delay|": {
     "airport": "IAH",
     "fields": {
       "arpt": "IAH",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
+      "max": "1 hour and 30 minutes",
+      "min": "1 hour and 16 minutes",
       "reason": "WX:Thunderstorms",
       "trend": "Increasing"
     },
@@ -30,6 +41,17 @@
     },
     "type": "Airport Closure"
   },
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
+    "fields": {
+      "arpt": "MIA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "PVD|Airport Closure|!PVD 11/005 PVD AD AP CLSD EXC HEL DLY 0515-1030 2611030515-2611041030|Nov 03 at 05:15 UTC.": {
     "airport": "PVD",
     "fields": {
@@ -49,17 +71,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SFO|Arrival/Departure Delay|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Wind",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SFO|Ground Delay Program|": {
     "airport": "SFO",
