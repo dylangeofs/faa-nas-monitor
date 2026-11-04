@@ -1,4 +1,14 @@
 {
+  "ASE|Airport Closure|!ASE 11/064 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611040600-2611041400|Nov 04 at 06:00 UTC.": {
+    "airport": "ASE",
+    "fields": {
+      "arpt": "ASE",
+      "reason": "!ASE 11/064 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611040600-2611041400",
+      "reopen": "Nov 04 at 14:00 UTC.",
+      "start": "Nov 04 at 06:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "FLL|Arrival/Departure Delay|": {
     "airport": "FLL",
     "fields": {
@@ -6,17 +16,6 @@
       "max": "1 hour",
       "min": "46 minutes",
       "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "IAH|Arrival/Departure Delay|": {
-    "airport": "IAH",
-    "fields": {
-      "arpt": "IAH",
-      "max": "1 hour and 30 minutes",
-      "min": "1 hour and 16 minutes",
-      "reason": "WX:Thunderstorms",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -45,8 +44,8 @@
     "airport": "MIA",
     "fields": {
       "arpt": "MIA",
-      "max": "30 minutes",
-      "min": "16 minutes",
+      "max": "45 minutes",
+      "min": "31 minutes",
       "reason": "TM Initiatives:MIT:WX",
       "trend": "Increasing"
     },
@@ -71,16 +70,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "avg": "1 hour and 54 minutes",
-      "max": "8 hours and 39 minutes",
-      "reason": "wind"
-    },
-    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
