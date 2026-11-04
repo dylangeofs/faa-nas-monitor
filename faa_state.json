@@ -1,25 +1,4 @@
 {
-  "ASE|Airport Closure|!ASE 11/064 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611040600-2611041400|Nov 04 at 06:00 UTC.": {
-    "airport": "ASE",
-    "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/064 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611040600-2611041400",
-      "reopen": "Nov 04 at 14:00 UTC.",
-      "start": "Nov 04 at 06:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -40,27 +19,6 @@
     },
     "type": "Airport Closure"
   },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "PVD|Airport Closure|!PVD 11/005 PVD AD AP CLSD EXC HEL DLY 0515-1030 2611030515-2611041030|Nov 03 at 05:15 UTC.": {
-    "airport": "PVD",
-    "fields": {
-      "arpt": "PVD",
-      "reason": "!PVD 11/005 PVD AD AP CLSD EXC HEL DLY 0515-1030 2611030515-2611041030",
-      "reopen": "Nov 04 at 10:30 UTC.",
-      "start": "Nov 03 at 05:15 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -70,6 +28,16 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "avg": "37 minutes",
+      "max": "1 hour and 11 minutes",
+      "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
