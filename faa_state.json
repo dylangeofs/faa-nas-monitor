@@ -1,4 +1,25 @@
 {
+  "BFI|Arrival/Departure Delay|": {
+    "airport": "BFI",
+    "fields": {
+      "arpt": "BFI",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "OTHER: TEMP TOWER OPS",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "BFI|Ground Delay Program|": {
+    "airport": "BFI",
+    "fields": {
+      "arpt": "BFI",
+      "avg": "2 hours and 41 minutes",
+      "max": "5 hours and 17 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -48,16 +69,5 @@
       "start": "Nov 03 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "TM Initiatives:Metering:VOL",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
