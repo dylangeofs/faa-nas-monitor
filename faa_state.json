@@ -29,6 +29,17 @@
     },
     "type": "Airport Closure"
   },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
     "fields": {
