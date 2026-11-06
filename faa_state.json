@@ -1,64 +1,51 @@
 {
-  "BOS|Arrival/Departure Delay|": {
-    "airport": "BOS",
+  "BFI|Ground Delay Program|": {
+    "airport": "BFI",
     "fields": {
-      "arpt": "BOS",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
+      "arpt": "BFI",
+      "avg": "3 hours and 7 minutes",
+      "max": "6 hours and 42 minutes",
+      "reason": "other"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "BOS|Ground Delay Program|": {
     "airport": "BOS",
     "fields": {
       "arpt": "BOS",
-      "avg": "51 minutes",
-      "max": "2 hours and 12 minutes",
+      "avg": "2 hours and 24 minutes",
+      "max": "12 hours and 8 minutes",
       "reason": "thunderstorms"
     },
     "type": "Ground Delay Program"
-  },
-  "BWI|Arrival/Departure Delay|": {
-    "airport": "BWI",
-    "fields": {
-      "arpt": "BWI",
-      "max": "2 hours and 30 minutes",
-      "min": "2 hours and 16 minutes",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "DCA|Arrival/Departure Delay|": {
-    "airport": "DCA",
-    "fields": {
-      "arpt": "DCA",
-      "max": "2 hours",
-      "min": "1 hour and 46 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "EWR|Arrival/Departure Delay|": {
     "airport": "EWR",
     "fields": {
       "arpt": "EWR",
-      "max": "1 hour and 59 minutes",
-      "min": "1 hour and 45 minutes",
+      "max": "59 minutes",
+      "min": "45 minutes",
       "reason": "TM Initiatives:SWAP:WX",
       "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
+  "EWR|Ground Delay Program|": {
+    "airport": "EWR",
+    "fields": {
+      "arpt": "EWR",
+      "avg": "2 hours and 36 minutes",
+      "max": "9 hours and 29 minutes",
+      "reason": "thunderstorms"
+    },
+    "type": "Ground Delay Program"
+  },
   "JFK|Arrival/Departure Delay|": {
     "airport": "JFK",
     "fields": {
       "arpt": "JFK",
-      "max": "2 hours",
-      "min": "1 hour and 46 minutes",
+      "max": "45 minutes",
+      "min": "31 minutes",
       "reason": "TM Initiatives:SWAP:WX",
       "trend": "Increasing"
     },
@@ -88,10 +75,10 @@
     "airport": "LGA",
     "fields": {
       "arpt": "LGA",
-      "max": "2 hours and 15 minutes",
-      "min": "2 hours and 1 minute",
+      "max": "1 hour and 59 minutes",
+      "min": "1 hour and 45 minutes",
       "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Increasing"
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -99,22 +86,11 @@
     "airport": "LGA",
     "fields": {
       "arpt": "LGA",
-      "avg": "33 minutes",
-      "max": "1 hour and 53 minutes",
+      "avg": "2 hours and 54 minutes",
+      "max": "9 hours and 4 minutes",
       "reason": "thunderstorms"
     },
     "type": "Ground Delay Program"
-  },
-  "PHL|Arrival/Departure Delay|": {
-    "airport": "PHL",
-    "fields": {
-      "arpt": "PHL",
-      "max": "3 hours",
-      "min": "2 hours and 46 minutes",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -132,7 +108,7 @@
       "arpt": "SAN",
       "max": "30 minutes",
       "min": "16 minutes",
-      "reason": "VOL:Volume",
+      "reason": "VOL:Compacted Demand",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -161,8 +137,8 @@
     "airport": "TEB",
     "fields": {
       "arpt": "TEB",
-      "max": "2 hours",
-      "min": "1 hour and 46 minutes",
+      "max": "5 hours and 15 minutes",
+      "min": "5 hours and 1 minute",
       "reason": "TM Initiatives:SWAP:WX",
       "trend": "Increasing"
     },
