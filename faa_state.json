@@ -1,15 +1,4 @@
 {
-  "BFI|Arrival/Departure Delay|": {
-    "airport": "BFI",
-    "fields": {
-      "arpt": "BFI",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "OTHER: TEMP TOWER OPS",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "BFI|Ground Delay Program|": {
     "airport": "BFI",
     "fields": {
