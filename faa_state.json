@@ -1,13 +1,13 @@
 {
-  "BFI|Ground Delay Program|": {
-    "airport": "BFI",
+  "ASE|Airport Closure|!ASE 11/129 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611060600-2611061400|Nov 06 at 06:00 UTC.": {
+    "airport": "ASE",
     "fields": {
-      "arpt": "BFI",
-      "avg": "2 hours and 41 minutes",
-      "max": "5 hours and 17 minutes",
-      "reason": "other"
+      "arpt": "ASE",
+      "reason": "!ASE 11/129 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611060600-2611061400",
+      "reopen": "Nov 06 at 14:00 UTC.",
+      "start": "Nov 06 at 06:00 UTC."
     },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -38,16 +38,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "38 minutes",
-      "max": "1 hour and 24 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
