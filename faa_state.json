@@ -3,8 +3,8 @@
     "airport": "BOS",
     "fields": {
       "arpt": "BOS",
-      "avg": "1 hour and 10 minutes",
-      "max": "2 hours and 23 minutes",
+      "avg": "2 hours and 28 minutes",
+      "max": "6 hours and 39 minutes",
       "reason": "runway construction"
     },
     "type": "Ground Delay Program"
@@ -28,17 +28,6 @@
       "start": "May 27 at 18:26 UTC."
     },
     "type": "Airport Closure"
-  },
-  "MCO|Arrival/Departure Delay|": {
-    "airport": "MCO",
-    "fields": {
-      "arpt": "MCO",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "RWY:Maintenance",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
