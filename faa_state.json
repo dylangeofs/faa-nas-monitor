@@ -1,13 +1,24 @@
 {
-  "ASE|Airport Closure|!ASE 11/131 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611070600-2611071400|Nov 07 at 06:00 UTC.": {
-    "airport": "ASE",
+  "BOS|Arrival/Departure Delay|": {
+    "airport": "BOS",
     "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/131 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611070600-2611071400",
-      "reopen": "Nov 07 at 14:00 UTC.",
-      "start": "Nov 07 at 06:00 UTC."
+      "arpt": "BOS",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "RWY:Construction",
+      "trend": "Increasing"
     },
-    "type": "Airport Closure"
+    "type": "Arrival/Departure Delay"
+  },
+  "BOS|Ground Delay Program|": {
+    "airport": "BOS",
+    "fields": {
+      "arpt": "BOS",
+      "avg": "1 hour and 10 minutes",
+      "max": "2 hours and 23 minutes",
+      "reason": "runway construction"
+    },
+    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
