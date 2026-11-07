@@ -1,35 +1,4 @@
 {
-  "BFI|Ground Delay Program|": {
-    "airport": "BFI",
-    "fields": {
-      "arpt": "BFI",
-      "avg": "3 hours and 7 minutes",
-      "max": "6 hours and 42 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
-  },
-  "BOS|Ground Delay Program|": {
-    "airport": "BOS",
-    "fields": {
-      "arpt": "BOS",
-      "avg": "2 hours and 24 minutes",
-      "max": "12 hours and 8 minutes",
-      "reason": "thunderstorms"
-    },
-    "type": "Ground Delay Program"
-  },
-  "EWR|Arrival/Departure Delay|": {
-    "airport": "EWR",
-    "fields": {
-      "arpt": "EWR",
-      "max": "59 minutes",
-      "min": "45 minutes",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "EWR|Ground Delay Program|": {
     "airport": "EWR",
     "fields": {
@@ -44,10 +13,10 @@
     "airport": "JFK",
     "fields": {
       "arpt": "JFK",
-      "max": "45 minutes",
-      "min": "31 minutes",
+      "max": "29 minutes",
+      "min": "15 minutes",
       "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Increasing"
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -61,6 +30,17 @@
     },
     "type": "Airport Closure"
   },
+  "LAS|Arrival/Departure Delay|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Volume",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
     "fields": {
@@ -71,26 +51,16 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Arrival/Departure Delay|": {
-    "airport": "LGA",
+  "PHL|Arrival/Departure Delay|": {
+    "airport": "PHL",
     "fields": {
-      "arpt": "LGA",
-      "max": "1 hour and 59 minutes",
-      "min": "1 hour and 45 minutes",
+      "arpt": "PHL",
+      "max": "45 minutes",
+      "min": "31 minutes",
       "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Decreasing"
+      "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
-  },
-  "LGA|Ground Delay Program|": {
-    "airport": "LGA",
-    "fields": {
-      "arpt": "LGA",
-      "avg": "2 hours and 54 minutes",
-      "max": "9 hours and 4 minutes",
-      "reason": "thunderstorms"
-    },
-    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -102,17 +72,6 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Arrival/Departure Delay|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SAN|Ground Delay Program|": {
     "airport": "SAN",
     "fields": {
@@ -120,6 +79,16 @@
       "avg": "26 minutes",
       "max": "1 hour and 16 minutes",
       "reason": "airport volume"
+    },
+    "type": "Ground Delay Program"
+  },
+  "SEA|Ground Delay Program|": {
+    "airport": "SEA",
+    "fields": {
+      "arpt": "SEA",
+      "avg": "51 minutes",
+      "max": "1 hour and 46 minutes",
+      "reason": "other"
     },
     "type": "Ground Delay Program"
   },
@@ -132,16 +101,5 @@
       "start": "Nov 03 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "5 hours and 15 minutes",
-      "min": "5 hours and 1 minute",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
