@@ -9,16 +9,6 @@
     },
     "type": "Ground Delay Program"
   },
-  "BOS|Ground Delay Program|": {
-    "airport": "BOS",
-    "fields": {
-      "arpt": "BOS",
-      "avg": "26 minutes",
-      "max": "1 hour and 23 minutes",
-      "reason": "runway construction"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -59,14 +49,15 @@
     },
     "type": "Ground Delay Program"
   },
-  "SBN|Airport Closure|!SBN 11/028 SBN AD AP CLSD TO TRANSIENT ACFT EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611081651-2611092200|Nov 08 at 16:51 UTC.": {
-    "airport": "SBN",
+  "TEB|Arrival/Departure Delay|": {
+    "airport": "TEB",
     "fields": {
-      "arpt": "SBN",
-      "reason": "!SBN 11/028 SBN AD AP CLSD TO TRANSIENT ACFT EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611081651-2611092200",
-      "reopen": "Nov 09 at 22:00 UTC.",
-      "start": "Nov 08 at 16:51 UTC."
+      "arpt": "TEB",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "VOL:Multi-taxi",
+      "trend": "Increasing"
     },
-    "type": "Airport Closure"
+    "type": "Arrival/Departure Delay"
   }
 }
