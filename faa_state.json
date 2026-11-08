@@ -29,24 +29,14 @@
     },
     "type": "Airport Closure"
   },
-  "SBN|Airport Closure|!SBN 11/026 SBN AD AP CLSD TO TRANSIENT GA EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611080046-2611082200|Nov 08 at 00:46 UTC.": {
-    "airport": "SBN",
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
     "fields": {
-      "arpt": "SBN",
-      "reason": "!SBN 11/026 SBN AD AP CLSD TO TRANSIENT GA EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611080046-2611082200",
-      "reopen": "Nov 08 at 22:00 UTC.",
-      "start": "Nov 08 at 00:46 UTC."
+      "arpt": "SAN",
+      "avg": "26 minutes",
+      "max": "1 hour and 28 minutes",
+      "reason": "airport volume"
     },
-    "type": "Airport Closure"
-  },
-  "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
-    "airport": "SNA",
-    "fields": {
-      "arpt": "SNA",
-      "reason": "!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415",
-      "reopen": "Nov 08 at 14:15 UTC.",
-      "start": "Nov 03 at 07:30 UTC."
-    },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
   }
 }
