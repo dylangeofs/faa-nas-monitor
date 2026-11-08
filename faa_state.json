@@ -39,16 +39,6 @@
     },
     "type": "Airport Closure"
   },
-  "SEA|Ground Delay Program|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "avg": "34 minutes",
-      "max": "2 hours and 53 minutes",
-      "reason": "wind"
-    },
-    "type": "Ground Delay Program"
-  },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
     "fields": {
