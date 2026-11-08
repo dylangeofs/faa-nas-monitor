@@ -1,14 +1,4 @@
 {
-  "BOS|Ground Delay Program|": {
-    "airport": "BOS",
-    "fields": {
-      "arpt": "BOS",
-      "avg": "2 hours and 28 minutes",
-      "max": "6 hours and 39 minutes",
-      "reason": "runway construction"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -38,6 +28,26 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SBN|Airport Closure|!SBN 11/026 SBN AD AP CLSD TO TRANSIENT GA EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611080046-2611082200|Nov 08 at 00:46 UTC.": {
+    "airport": "SBN",
+    "fields": {
+      "arpt": "SBN",
+      "reason": "!SBN 11/026 SBN AD AP CLSD TO TRANSIENT GA EXC 1HR PPR 574-282-4200 OR 269-240-8443 2611080046-2611082200",
+      "reopen": "Nov 08 at 22:00 UTC.",
+      "start": "Nov 08 at 00:46 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "SEA|Ground Delay Program|": {
+    "airport": "SEA",
+    "fields": {
+      "arpt": "SEA",
+      "avg": "34 minutes",
+      "max": "2 hours and 53 minutes",
+      "reason": "wind"
+    },
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/003 SNA AD AP CLSD DLY 0730-1415 2611030730-2611081415|Nov 03 at 07:30 UTC.": {
     "airport": "SNA",
