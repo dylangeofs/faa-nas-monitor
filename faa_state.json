@@ -1,14 +1,13 @@
 {
-  "EWR|Arrival/Departure Delay|": {
-    "airport": "EWR",
+  "ASE|Airport Closure|!ASE 11/133 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611090600-2611091400|Nov 09 at 06:00 UTC.": {
+    "airport": "ASE",
     "fields": {
-      "arpt": "EWR",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "STAFF:Staffing",
-      "trend": "Increasing"
+      "arpt": "ASE",
+      "reason": "!ASE 11/133 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611090600-2611091400",
+      "reopen": "Nov 09 at 14:00 UTC.",
+      "start": "Nov 09 at 06:00 UTC."
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Airport Closure"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -40,24 +39,14 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Ground Delay Program|": {
+  "SAN|Airport Closure|!SAN 11/013 SAN AD AP CLSD 2611090900-2611091400|Nov 09 at 09:00 UTC.": {
     "airport": "SAN",
     "fields": {
       "arpt": "SAN",
-      "avg": "26 minutes",
-      "max": "1 hour and 28 minutes",
-      "reason": "airport volume"
+      "reason": "!SAN 11/013 SAN AD AP CLSD 2611090900-2611091400",
+      "reopen": "Nov 09 at 14:00 UTC.",
+      "start": "Nov 09 at 09:00 UTC."
     },
-    "type": "Ground Delay Program"
-  },
-  "SEA|Ground Delay Program|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "avg": "31 minutes",
-      "max": "1 hour and 26 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   }
 }
