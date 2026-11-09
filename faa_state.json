@@ -1,13 +1,14 @@
 {
-  "AUS|Ground Delay Program|": {
-    "airport": "AUS",
+  "EWR|Arrival/Departure Delay|": {
+    "airport": "EWR",
     "fields": {
-      "arpt": "AUS",
-      "avg": "1 hour",
-      "max": "2 hours and 29 minutes",
-      "reason": "runway construction"
+      "arpt": "EWR",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "STAFF:Staffing",
+      "trend": "Increasing"
     },
-    "type": "Ground Delay Program"
+    "type": "Arrival/Departure Delay"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -49,15 +50,14 @@
     },
     "type": "Ground Delay Program"
   },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
+  "SEA|Ground Delay Program|": {
+    "airport": "SEA",
     "fields": {
-      "arpt": "TEB",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "VOL:Multi-taxi",
-      "trend": "Increasing"
+      "arpt": "SEA",
+      "avg": "31 minutes",
+      "max": "1 hour and 26 minutes",
+      "reason": "other"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   }
 }
