@@ -1,13 +1,13 @@
 {
-  "ASE|Airport Closure|!ASE 11/133 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611090600-2611091400|Nov 09 at 06:00 UTC.": {
-    "airport": "ASE",
+  "BOS|Ground Delay Program|": {
+    "airport": "BOS",
     "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/133 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611090600-2611091400",
-      "reopen": "Nov 09 at 14:00 UTC.",
-      "start": "Nov 09 at 06:00 UTC."
+      "arpt": "BOS",
+      "avg": "20 minutes",
+      "max": "1 hour and 7 minutes",
+      "reason": "runway construction"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -29,6 +29,17 @@
     },
     "type": "Airport Closure"
   },
+  "LGA|Arrival/Departure Delay|": {
+    "airport": "LGA",
+    "fields": {
+      "arpt": "LGA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -39,14 +50,24 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Airport Closure|!SAN 11/013 SAN AD AP CLSD 2611090900-2611091400|Nov 09 at 09:00 UTC.": {
+  "SAN|Ground Delay Program|": {
     "airport": "SAN",
     "fields": {
       "arpt": "SAN",
-      "reason": "!SAN 11/013 SAN AD AP CLSD 2611090900-2611091400",
-      "reopen": "Nov 09 at 14:00 UTC.",
-      "start": "Nov 09 at 09:00 UTC."
+      "avg": "22 minutes",
+      "max": "1 hour and 23 minutes",
+      "reason": "airport volume"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
+  },
+  "SFO|Ground Delay Program|": {
+    "airport": "SFO",
+    "fields": {
+      "arpt": "SFO",
+      "avg": "1 hour and 36 minutes",
+      "max": "10 hours and 53 minutes",
+      "reason": "low ceilings"
+    },
+    "type": "Ground Delay Program"
   }
 }
