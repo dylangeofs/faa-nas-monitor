@@ -1,14 +1,4 @@
 {
-  "ASE|Airport Closure|!ASE 11/134 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611100600-2611101400|Nov 10 at 06:00 UTC.": {
-    "airport": "ASE",
-    "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/134 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611100600-2611101400",
-      "reopen": "Nov 10 at 14:00 UTC.",
-      "start": "Nov 10 at 06:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -29,16 +19,6 @@
     },
     "type": "Airport Closure"
   },
-  "PNS|Airport Closure|!PNS 11/034 PNS AD AP CLSD EXC HEL OPS 2611101044-2611101145EST|Nov 10 at 10:44 UTC.": {
-    "airport": "PNS",
-    "fields": {
-      "arpt": "PNS",
-      "reason": "!PNS 11/034 PNS AD AP CLSD EXC HEL OPS 2611101044-2611101145EST",
-      "reopen": "Nov 10 at 11:45 UTC.",
-      "start": "Nov 10 at 10:44 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -48,6 +28,17 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SEA|Arrival/Departure Delay|": {
+    "airport": "SEA",
+    "fields": {
+      "arpt": "SEA",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "RWY:Construction",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SNA|Airport Closure|!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415|Nov 10 at 07:30 UTC.": {
     "airport": "SNA",
