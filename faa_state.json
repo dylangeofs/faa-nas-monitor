@@ -1,14 +1,4 @@
 {
-  "BOS|Ground Delay Program|": {
-    "airport": "BOS",
-    "fields": {
-      "arpt": "BOS",
-      "avg": "20 minutes",
-      "max": "1 hour and 7 minutes",
-      "reason": "runway construction"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -18,6 +8,16 @@
       "start": "Oct 28 at 19:26 UTC."
     },
     "type": "Airport Closure"
+  },
+  "LAS|Ground Delay Program|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "avg": "37 minutes",
+      "max": "1 hour and 20 minutes",
+      "reason": "other"
+    },
+    "type": "Ground Delay Program"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -33,8 +33,8 @@
     "airport": "LGA",
     "fields": {
       "arpt": "LGA",
-      "max": "30 minutes",
-      "min": "16 minutes",
+      "max": "45 minutes",
+      "min": "31 minutes",
       "reason": "WX:Wind",
       "trend": "Increasing"
     },
@@ -50,6 +50,17 @@
     },
     "type": "Airport Closure"
   },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SAN|Ground Delay Program|": {
     "airport": "SAN",
     "fields": {
@@ -60,13 +71,13 @@
     },
     "type": "Ground Delay Program"
   },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
+  "SEA|Ground Delay Program|": {
+    "airport": "SEA",
     "fields": {
-      "arpt": "SFO",
-      "avg": "1 hour and 36 minutes",
-      "max": "10 hours and 53 minutes",
-      "reason": "low ceilings"
+      "arpt": "SEA",
+      "avg": "1 hour and 7 minutes",
+      "max": "1 hour and 52 minutes",
+      "reason": "other"
     },
     "type": "Ground Delay Program"
   }
