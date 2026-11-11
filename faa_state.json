@@ -1,13 +1,24 @@
 {
-  "ASE|Airport Closure|!ASE 11/140 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611110600-2611111400|Nov 11 at 06:00 UTC.": {
-    "airport": "ASE",
+  "BOS|Ground Delay Program|": {
+    "airport": "BOS",
     "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/140 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611110600-2611111400",
-      "reopen": "Nov 11 at 14:00 UTC.",
-      "start": "Nov 11 at 06:00 UTC."
+      "arpt": "BOS",
+      "avg": "20 minutes",
+      "max": "1 hour and 4 minutes",
+      "reason": "runway construction"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
+  },
+  "DCA|Arrival/Departure Delay|": {
+    "airport": "DCA",
+    "fields": {
+      "arpt": "DCA",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "VIPM:VIP Movement",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -29,16 +40,6 @@
     },
     "type": "Airport Closure"
   },
-  "PNS|Airport Closure|!PNS 11/017 PNS AD AP CLSD EXC HEL OPS 2611110600-2611111100|Nov 11 at 06:00 UTC.": {
-    "airport": "PNS",
-    "fields": {
-      "arpt": "PNS",
-      "reason": "!PNS 11/017 PNS AD AP CLSD EXC HEL OPS 2611110600-2611111100",
-      "reopen": "Nov 11 at 11:00 UTC.",
-      "start": "Nov 11 at 06:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -49,15 +50,15 @@
     },
     "type": "Airport Closure"
   },
-  "SBP|Airport Closure|!SBP 11/003 SBP AD AP CLSD EXC EMERG HEL 2611110800-2611111230|Nov 11 at 08:00 UTC.": {
-    "airport": "SBP",
+  "SFO|Ground Delay Program|": {
+    "airport": "SFO",
     "fields": {
-      "arpt": "SBP",
-      "reason": "!SBP 11/003 SBP AD AP CLSD EXC EMERG HEL 2611110800-2611111230",
-      "reopen": "Nov 11 at 12:30 UTC.",
-      "start": "Nov 11 at 08:00 UTC."
+      "arpt": "SFO",
+      "avg": "1 hour and 2 minutes",
+      "max": "2 hours and 12 minutes",
+      "reason": "low ceilings"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415|Nov 10 at 07:30 UTC.": {
     "airport": "SNA",
