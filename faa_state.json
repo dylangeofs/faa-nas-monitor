@@ -1,4 +1,14 @@
 {
+  "BDL|Airport Closure|!BDL 11/064 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 5HR PPR 860-627-3001 2611122003-2611130500|Nov 12 at 20:03 UTC.": {
+    "airport": "BDL",
+    "fields": {
+      "arpt": "BDL",
+      "reason": "!BDL 11/064 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 5HR PPR 860-627-3001 2611122003-2611130500",
+      "reopen": "Nov 13 at 05:00 UTC.",
+      "start": "Nov 12 at 20:03 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "BOS|Ground Delay Program|": {
     "airport": "BOS",
     "fields": {
@@ -9,16 +19,58 @@
     },
     "type": "Ground Delay Program"
   },
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
+  "BWI|Arrival/Departure Delay|": {
+    "airport": "BWI",
     "fields": {
-      "arpt": "FLL",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "TM Initiatives:MIT:WX",
+      "arpt": "BWI",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "TM Initiatives:SWAP:WX",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
+  },
+  "EWR|Arrival/Departure Delay|": {
+    "airport": "EWR",
+    "fields": {
+      "arpt": "EWR",
+      "max": "2 hours",
+      "min": "1 hour and 46 minutes",
+      "reason": "TM Initiatives:SWAP:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "EWR|Ground Delay Program|": {
+    "airport": "EWR",
+    "fields": {
+      "arpt": "EWR",
+      "avg": "3 hours and 7 minutes",
+      "max": "8 hours and 28 minutes",
+      "reason": "thunderstorms"
+    },
+    "type": "Ground Delay Program"
+  },
+  "JFK|Arrival/Departure Delay|": {
+    "airport": "JFK",
+    "fields": {
+      "arpt": "JFK",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "TM Initiatives:SWAP:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "JFK|Ground Delay Program|": {
+    "airport": "JFK",
+    "fields": {
+      "arpt": "JFK",
+      "avg": "4 hours and 6 minutes",
+      "max": "8 hours and 20 minutes",
+      "reason": "thunderstorms"
+    },
+    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -30,17 +82,6 @@
     },
     "type": "Airport Closure"
   },
-  "LAS|Arrival/Departure Delay|": {
-    "airport": "LAS",
-    "fields": {
-      "arpt": "LAS",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "OTHER:Air Show",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
     "fields": {
@@ -51,16 +92,26 @@
     },
     "type": "Airport Closure"
   },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
+  "LGA|Arrival/Departure Delay|": {
+    "airport": "LGA",
     "fields": {
-      "arpt": "MIA",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "TM Initiatives:MIT:WX",
+      "arpt": "LGA",
+      "max": "2 hours and 15 minutes",
+      "min": "2 hours and 1 minute",
+      "reason": "TM Initiatives:SWAP:WX",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
+  },
+  "LGA|Ground Delay Program|": {
+    "airport": "LGA",
+    "fields": {
+      "arpt": "LGA",
+      "avg": "2 hours and 23 minutes",
+      "max": "6 hours and 21 minutes",
+      "reason": "thunderstorms"
+    },
+    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -96,8 +147,8 @@
     "airport": "TEB",
     "fields": {
       "arpt": "TEB",
-      "max": "45 minutes",
-      "min": "31 minutes",
+      "max": "3 hours and 30 minutes",
+      "min": "3 hours and 16 minutes",
       "reason": "TM Initiatives:SWAP:WX",
       "trend": "Increasing"
     },
