@@ -1,23 +1,13 @@
 {
-  "ASE|Airport Closure|!ASE 11/143 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611130600-2611131400|Nov 13 at 06:00 UTC.": {
-    "airport": "ASE",
+  "BOS|Ground Delay Program|": {
+    "airport": "BOS",
     "fields": {
-      "arpt": "ASE",
-      "reason": "!ASE 11/143 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611130600-2611131400",
-      "reopen": "Nov 13 at 14:00 UTC.",
-      "start": "Nov 13 at 06:00 UTC."
+      "arpt": "BOS",
+      "avg": "26 minutes",
+      "max": "1 hour and 43 minutes",
+      "reason": "airport volume"
     },
-    "type": "Airport Closure"
-  },
-  "BDL|Airport Closure|!BDL 11/070 BDL AD AP CLSD TO NON SKED INTL AIR CARRIER EXC 6HR PPR 860-627-3001 2611130525-2611131700EST|Nov 13 at 05:25 UTC.": {
-    "airport": "BDL",
-    "fields": {
-      "arpt": "BDL",
-      "reason": "!BDL 11/070 BDL AD AP CLSD TO NON SKED INTL AIR CARRIER EXC 6HR PPR 860-627-3001 2611130525-2611131700EST",
-      "reopen": "Nov 13 at 17:00 UTC.",
-      "start": "Nov 13 at 05:25 UTC."
-    },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -39,15 +29,26 @@
     },
     "type": "Airport Closure"
   },
-  "PNS|Airport Closure|!PNS 11/024 PNS AD AP CLSD EXC HEL OPS 2611130600-2611131100|Nov 13 at 06:00 UTC.": {
-    "airport": "PNS",
+  "LGA|Ground Delay Program|": {
+    "airport": "LGA",
     "fields": {
-      "arpt": "PNS",
-      "reason": "!PNS 11/024 PNS AD AP CLSD EXC HEL OPS 2611130600-2611131100",
-      "reopen": "Nov 13 at 11:00 UTC.",
-      "start": "Nov 13 at 06:00 UTC."
+      "arpt": "LGA",
+      "avg": "45 minutes",
+      "max": "2 hours and 46 minutes",
+      "reason": "wind"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
+  },
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
+    "fields": {
+      "arpt": "MIA",
+      "max": "44 minutes",
+      "min": "30 minutes",
+      "reason": "TM Initiatives:MIT:VOL",
+      "trend": "Decreasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -59,15 +60,25 @@
     },
     "type": "Airport Closure"
   },
-  "SBP|Airport Closure|!SBP 11/004 SBP AD AP CLSD EXC EMERG HEL 2611130800-2611131230|Nov 13 at 08:00 UTC.": {
-    "airport": "SBP",
+  "SAN|Ground Delay Program|": {
+    "airport": "SAN",
     "fields": {
-      "arpt": "SBP",
-      "reason": "!SBP 11/004 SBP AD AP CLSD EXC EMERG HEL 2611130800-2611131230",
-      "reopen": "Nov 13 at 12:30 UTC.",
-      "start": "Nov 13 at 08:00 UTC."
+      "arpt": "SAN",
+      "avg": "34 minutes",
+      "max": "1 hour and 21 minutes",
+      "reason": "airport volume"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
+  },
+  "SFO|Ground Delay Program|": {
+    "airport": "SFO",
+    "fields": {
+      "arpt": "SFO",
+      "avg": "2 hours and 9 minutes",
+      "max": "11 hours and 30 minutes",
+      "reason": "wind"
+    },
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415|Nov 10 at 07:30 UTC.": {
     "airport": "SNA",
@@ -76,6 +87,16 @@
       "reason": "!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415",
       "reopen": "Nov 21 at 14:15 UTC.",
       "start": "Nov 10 at 07:30 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "SUA|Airport Closure|!MIA 11/158 SUA AD AP CLSD EXC AIRSHOW ACFT 2611131600-2611140100|Nov 13 at 16:00 UTC.": {
+    "airport": "SUA",
+    "fields": {
+      "arpt": "SUA",
+      "reason": "!MIA 11/158 SUA AD AP CLSD EXC AIRSHOW ACFT 2611131600-2611140100",
+      "reopen": "Nov 14 at 01:00 UTC.",
+      "start": "Nov 13 at 16:00 UTC."
     },
     "type": "Airport Closure"
   }
