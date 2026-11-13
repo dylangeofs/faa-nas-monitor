@@ -1,43 +1,23 @@
 {
-  "BDL|Airport Closure|!BDL 11/064 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 5HR PPR 860-627-3001 2611122003-2611130500|Nov 12 at 20:03 UTC.": {
+  "ASE|Airport Closure|!ASE 11/143 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611130600-2611131400|Nov 13 at 06:00 UTC.": {
+    "airport": "ASE",
+    "fields": {
+      "arpt": "ASE",
+      "reason": "!ASE 11/143 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611130600-2611131400",
+      "reopen": "Nov 13 at 14:00 UTC.",
+      "start": "Nov 13 at 06:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "BDL|Airport Closure|!BDL 11/070 BDL AD AP CLSD TO NON SKED INTL AIR CARRIER EXC 6HR PPR 860-627-3001 2611130525-2611131700EST|Nov 13 at 05:25 UTC.": {
     "airport": "BDL",
     "fields": {
       "arpt": "BDL",
-      "reason": "!BDL 11/064 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 5HR PPR 860-627-3001 2611122003-2611130500",
-      "reopen": "Nov 13 at 05:00 UTC.",
-      "start": "Nov 12 at 20:03 UTC."
+      "reason": "!BDL 11/070 BDL AD AP CLSD TO NON SKED INTL AIR CARRIER EXC 6HR PPR 860-627-3001 2611130525-2611131700EST",
+      "reopen": "Nov 13 at 17:00 UTC.",
+      "start": "Nov 13 at 05:25 UTC."
     },
     "type": "Airport Closure"
-  },
-  "BWI|Airport Closure|!BWI 11/081 BWI AD AP CLSD TO DIVERSION AIR CARRIER ACFT EXC EMERG ACFT AND DIVERSION AIR CARRIER ACFT 4HR PPR AT 410-859-7018 2611122337-2611130500|Nov 12 at 23:37 UTC.": {
-    "airport": "BWI",
-    "fields": {
-      "arpt": "BWI",
-      "reason": "!BWI 11/081 BWI AD AP CLSD TO DIVERSION AIR CARRIER ACFT EXC EMERG ACFT AND DIVERSION AIR CARRIER ACFT 4HR PPR AT 410-859-7018 2611122337-2611130500",
-      "reopen": "Nov 13 at 05:00 UTC.",
-      "start": "Nov 12 at 23:37 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "EWR|Ground Delay Program|": {
-    "airport": "EWR",
-    "fields": {
-      "arpt": "EWR",
-      "avg": "3 hours and 13 minutes",
-      "max": "17 hours and 5 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
-  },
-  "JFK|Ground Delay Program|": {
-    "airport": "JFK",
-    "fields": {
-      "arpt": "JFK",
-      "avg": "4 hours and 48 minutes",
-      "max": "18 hours and 3 minutes",
-      "reason": "thunderstorms"
-    },
-    "type": "Ground Delay Program"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -59,16 +39,15 @@
     },
     "type": "Airport Closure"
   },
-  "PHL|Arrival/Departure Delay|": {
-    "airport": "PHL",
+  "PNS|Airport Closure|!PNS 11/024 PNS AD AP CLSD EXC HEL OPS 2611130600-2611131100|Nov 13 at 06:00 UTC.": {
+    "airport": "PNS",
     "fields": {
-      "arpt": "PHL",
-      "max": "1 hour and 14 minutes",
-      "min": "1 hour",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Decreasing"
+      "arpt": "PNS",
+      "reason": "!PNS 11/024 PNS AD AP CLSD EXC HEL OPS 2611130600-2611131100",
+      "reopen": "Nov 13 at 11:00 UTC.",
+      "start": "Nov 13 at 06:00 UTC."
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Airport Closure"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -80,25 +59,15 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
+  "SBP|Airport Closure|!SBP 11/004 SBP AD AP CLSD EXC EMERG HEL 2611130800-2611131230|Nov 13 at 08:00 UTC.": {
+    "airport": "SBP",
     "fields": {
-      "arpt": "SAN",
-      "avg": "33 minutes",
-      "max": "1 hour and 22 minutes",
-      "reason": "airport volume"
+      "arpt": "SBP",
+      "reason": "!SBP 11/004 SBP AD AP CLSD EXC EMERG HEL 2611130800-2611131230",
+      "reopen": "Nov 13 at 12:30 UTC.",
+      "start": "Nov 13 at 08:00 UTC."
     },
-    "type": "Ground Delay Program"
-  },
-  "SEA|Ground Delay Program|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "avg": "44 minutes",
-      "max": "1 hour and 45 minutes",
-      "reason": "other"
-    },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "SNA|Airport Closure|!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415|Nov 10 at 07:30 UTC.": {
     "airport": "SNA",
@@ -109,16 +78,5 @@
       "start": "Nov 10 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "29 minutes",
-      "min": "15 minutes",
-      "reason": "TM Initiatives:SWAP:WX",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
