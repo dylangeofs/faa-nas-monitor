@@ -19,16 +19,25 @@
     },
     "type": "Ground Delay Program"
   },
-  "IAH|Arrival/Departure Delay|": {
-    "airport": "IAH",
+  "DCA|Airport Closure|!DCA 11/261 DCA AD AP CLSD TO DIVERSION ACFT 2611140004-2611141100|Nov 14 at 00:04 UTC.": {
+    "airport": "DCA",
     "fields": {
-      "arpt": "IAH",
-      "max": "2 hours and 15 minutes",
-      "min": "2 hours and 1 minute",
-      "reason": "TM Initiatives:STOP:EQ",
-      "trend": "Increasing"
+      "arpt": "DCA",
+      "reason": "!DCA 11/261 DCA AD AP CLSD TO DIVERSION ACFT 2611140004-2611141100",
+      "reopen": "Nov 14 at 11:00 UTC.",
+      "start": "Nov 14 at 00:04 UTC."
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Airport Closure"
+  },
+  "FLL|Airport Closure|!FLL 11/142 FLL AD AP CLSD TO DIVERSION ACFT DUE TO CAPACITY 2611140038-2611140900|Nov 14 at 00:38 UTC.": {
+    "airport": "FLL",
+    "fields": {
+      "arpt": "FLL",
+      "reason": "!FLL 11/142 FLL AD AP CLSD TO DIVERSION ACFT DUE TO CAPACITY 2611140038-2611140900",
+      "reopen": "Nov 14 at 09:00 UTC.",
+      "start": "Nov 14 at 00:38 UTC."
+    },
+    "type": "Airport Closure"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -89,25 +98,5 @@
       "reason": "wind"
     },
     "type": "Ground Delay Program"
-  },
-  "SNA|Airport Closure|!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415|Nov 10 at 07:30 UTC.": {
-    "airport": "SNA",
-    "fields": {
-      "arpt": "SNA",
-      "reason": "!SNA 11/008 SNA AD AP CLSD DLY 0730-1415 2611100730-2611211415",
-      "reopen": "Nov 21 at 14:15 UTC.",
-      "start": "Nov 10 at 07:30 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "SUA|Airport Closure|!MIA 11/158 SUA AD AP CLSD EXC AIRSHOW ACFT 2611131600-2611140100|Nov 13 at 16:00 UTC.": {
-    "airport": "SUA",
-    "fields": {
-      "arpt": "SUA",
-      "reason": "!MIA 11/158 SUA AD AP CLSD EXC AIRSHOW ACFT 2611131600-2611140100",
-      "reopen": "Nov 14 at 01:00 UTC.",
-      "start": "Nov 13 at 16:00 UTC."
-    },
-    "type": "Airport Closure"
   }
 }
