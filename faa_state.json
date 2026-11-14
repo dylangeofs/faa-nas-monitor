@@ -1,23 +1,13 @@
 {
-  "BDL|Airport Closure|!BDL 11/082 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 6HR PPR 860-627-3001. 2611132139-2611140500|Nov 13 at 21:39 UTC.": {
-    "airport": "BDL",
+  "ASE|Airport Closure|!ASE 11/144 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611140600-2611141400|Nov 14 at 06:00 UTC.": {
+    "airport": "ASE",
     "fields": {
-      "arpt": "BDL",
-      "reason": "!BDL 11/082 BDL AD AP CLSD TO NON SKED INTL AIR CARRIERS EXC 6HR PPR 860-627-3001. 2611132139-2611140500",
-      "reopen": "Nov 14 at 05:00 UTC.",
-      "start": "Nov 13 at 21:39 UTC."
+      "arpt": "ASE",
+      "reason": "!ASE 11/144 ASE AD AP CLSD EXC LIFE FLT HEL AND SAR HEL 30MIN PPR 970-379-8406 2611140600-2611141400",
+      "reopen": "Nov 14 at 14:00 UTC.",
+      "start": "Nov 14 at 06:00 UTC."
     },
     "type": "Airport Closure"
-  },
-  "BOS|Ground Delay Program|": {
-    "airport": "BOS",
-    "fields": {
-      "arpt": "BOS",
-      "avg": "26 minutes",
-      "max": "1 hour and 43 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
   },
   "DCA|Airport Closure|!DCA 11/261 DCA AD AP CLSD TO DIVERSION ACFT 2611140004-2611141100|Nov 14 at 00:04 UTC.": {
     "airport": "DCA",
@@ -26,16 +16,6 @@
       "reason": "!DCA 11/261 DCA AD AP CLSD TO DIVERSION ACFT 2611140004-2611141100",
       "reopen": "Nov 14 at 11:00 UTC.",
       "start": "Nov 14 at 00:04 UTC."
-    },
-    "type": "Airport Closure"
-  },
-  "FLL|Airport Closure|!FLL 11/142 FLL AD AP CLSD TO DIVERSION ACFT DUE TO CAPACITY 2611140038-2611140900|Nov 14 at 00:38 UTC.": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "reason": "!FLL 11/142 FLL AD AP CLSD TO DIVERSION ACFT DUE TO CAPACITY 2611140038-2611140900",
-      "reopen": "Nov 14 at 09:00 UTC.",
-      "start": "Nov 14 at 00:38 UTC."
     },
     "type": "Airport Closure"
   },
@@ -59,15 +39,15 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Ground Delay Program|": {
-    "airport": "LGA",
+  "PNS|Airport Closure|!PNS 11/028 PNS AD AP CLSD EXC HEL OPS 2611140600-2611141100|Nov 14 at 06:00 UTC.": {
+    "airport": "PNS",
     "fields": {
-      "arpt": "LGA",
-      "avg": "45 minutes",
-      "max": "2 hours and 46 minutes",
-      "reason": "wind"
+      "arpt": "PNS",
+      "reason": "!PNS 11/028 PNS AD AP CLSD EXC HEL OPS 2611140600-2611141100",
+      "reopen": "Nov 14 at 11:00 UTC.",
+      "start": "Nov 14 at 06:00 UTC."
     },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -79,24 +59,14 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
+  "SNA|Airport Closure|!SNA 11/021 SNA AD AP CLSD 2611140800-2611141415|Nov 14 at 08:00 UTC.": {
+    "airport": "SNA",
     "fields": {
-      "arpt": "SAN",
-      "avg": "34 minutes",
-      "max": "1 hour and 21 minutes",
-      "reason": "airport volume"
+      "arpt": "SNA",
+      "reason": "!SNA 11/021 SNA AD AP CLSD 2611140800-2611141415",
+      "reopen": "Nov 14 at 14:15 UTC.",
+      "start": "Nov 14 at 08:00 UTC."
     },
-    "type": "Ground Delay Program"
-  },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "avg": "2 hours and 18 minutes",
-      "max": "11 hours and 30 minutes",
-      "reason": "wind"
-    },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   }
 }
