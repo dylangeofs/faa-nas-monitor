@@ -28,15 +28,5 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SUA|Airport Closure|!MIA 11/159 SUA AD AP CLSD EXC AIRSHOW ACFT 2611141600-2611142230|Nov 14 at 16:00 UTC.": {
-    "airport": "SUA",
-    "fields": {
-      "arpt": "SUA",
-      "reason": "!MIA 11/159 SUA AD AP CLSD EXC AIRSHOW ACFT 2611141600-2611142230",
-      "reopen": "Nov 14 at 22:30 UTC.",
-      "start": "Nov 14 at 16:00 UTC."
-    },
-    "type": "Airport Closure"
   }
 }
