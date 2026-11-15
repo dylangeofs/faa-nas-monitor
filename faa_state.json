@@ -9,28 +9,6 @@
     },
     "type": "Ground Delay Program"
   },
-  "DJT|Arrival/Departure Delay|": {
-    "airport": "DJT",
-    "fields": {
-      "arpt": "DJT",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "OTHER:ZJX STOPS",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "FMY|Arrival/Departure Delay|": {
-    "airport": "FMY",
-    "fields": {
-      "arpt": "FMY",
-      "max": "2 hours and 15 minutes",
-      "min": "2 hours and 1 minute",
-      "reason": "OTHER:ZJX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -51,24 +29,13 @@
     },
     "type": "Airport Closure"
   },
-  "OPF|Arrival/Departure Delay|": {
-    "airport": "OPF",
+  "MCO|Arrival/Departure Delay|": {
+    "airport": "MCO",
     "fields": {
-      "arpt": "OPF",
-      "max": "2 hours and 15 minutes",
-      "min": "2 hours and 1 minute",
-      "reason": "TM INITIATIVES:OTHER:ROCKET LAUNCH",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "RSW|Arrival/Departure Delay|": {
-    "airport": "RSW",
-    "fields": {
-      "arpt": "RSW",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "VOL:ZJX",
+      "arpt": "MCO",
+      "max": "1 hour",
+      "min": "46 minutes",
+      "reason": "RWY:Disabled Aircraft",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -82,16 +49,6 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "32 minutes",
-      "max": "1 hour and 25 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
   },
   "SFO|Ground Delay Program|": {
     "airport": "SFO",
@@ -113,22 +70,12 @@
     },
     "type": "Airport Closure"
   },
-  "SUA|Airport Closure|!MIA 11/160 SUA AD AP CLSD EXC AIRSHOW ACFT 2611151600-2611152230|Nov 15 at 16:00 UTC.": {
-    "airport": "SUA",
-    "fields": {
-      "arpt": "SUA",
-      "reason": "!MIA 11/160 SUA AD AP CLSD EXC AIRSHOW ACFT 2611151600-2611152230",
-      "reopen": "Nov 15 at 22:30 UTC.",
-      "start": "Nov 15 at 16:00 UTC."
-    },
-    "type": "Airport Closure"
-  },
   "TEB|Arrival/Departure Delay|": {
     "airport": "TEB",
     "fields": {
       "arpt": "TEB",
-      "max": "1 hour and 45 minutes",
-      "min": "1 hour and 31 minutes",
+      "max": "1 hour and 15 minutes",
+      "min": "1 hour and 1 minute",
       "reason": "VOL:Volume",
       "trend": "Increasing"
     },
