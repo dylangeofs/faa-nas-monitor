@@ -1,4 +1,14 @@
 {
+  "DAL|Airport Closure|!DAL 11/044 DAL AD AP CLSD 2611150229-2611151200|Nov 15 at 02:29 UTC.": {
+    "airport": "DAL",
+    "fields": {
+      "arpt": "DAL",
+      "reason": "!DAL 11/044 DAL AD AP CLSD 2611150229-2611151200",
+      "reopen": "Nov 15 at 12:00 UTC.",
+      "start": "Nov 15 at 02:29 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -16,6 +26,16 @@
       "reason": "!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600",
       "reopen": "May 28 at 16:00 UTC.",
       "start": "May 27 at 18:26 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "PNS|Airport Closure|!PNS 11/029 PNS AD AP CLSD EXC HEL OPS 2611150600-2611151100|Nov 15 at 06:00 UTC.": {
+    "airport": "PNS",
+    "fields": {
+      "arpt": "PNS",
+      "reason": "!PNS 11/029 PNS AD AP CLSD EXC HEL OPS 2611150600-2611151100",
+      "reopen": "Nov 15 at 11:00 UTC.",
+      "start": "Nov 15 at 06:00 UTC."
     },
     "type": "Airport Closure"
   },
