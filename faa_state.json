@@ -1,14 +1,4 @@
 {
-  "AUS|Ground Delay Program|": {
-    "airport": "AUS",
-    "fields": {
-      "arpt": "AUS",
-      "avg": "1 hour and 5 minutes",
-      "max": "3 hours and 3 minutes",
-      "reason": "runway construction"
-    },
-    "type": "Ground Delay Program"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -29,17 +19,6 @@
     },
     "type": "Airport Closure"
   },
-  "MCO|Arrival/Departure Delay|": {
-    "airport": "MCO",
-    "fields": {
-      "arpt": "MCO",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "RWY:Disabled Aircraft",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -50,13 +29,24 @@
     },
     "type": "Airport Closure"
   },
+  "SFO|Arrival/Departure Delay|": {
+    "airport": "SFO",
+    "fields": {
+      "arpt": "SFO",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
   "SFO|Ground Delay Program|": {
     "airport": "SFO",
     "fields": {
       "arpt": "SFO",
-      "avg": "2 hours and 59 minutes",
-      "max": "5 hours and 41 minutes",
-      "reason": "wind"
+      "avg": "2 hours and 20 minutes",
+      "max": "7 hours and 7 minutes",
+      "reason": "low ceilings"
     },
     "type": "Ground Delay Program"
   },
@@ -69,16 +59,5 @@
       "start": "Nov 15 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "VOL:Volume",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
