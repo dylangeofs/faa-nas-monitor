@@ -29,26 +29,15 @@
     },
     "type": "Airport Closure"
   },
-  "SFO|Arrival/Departure Delay|": {
-    "airport": "SFO",
+  "SAN|Airport Closure|!SAN 11/048 SAN AD AP CLSD 2611160900-2611161400|Nov 16 at 09:00 UTC.": {
+    "airport": "SAN",
     "fields": {
-      "arpt": "SFO",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Wind",
-      "trend": "Increasing"
+      "arpt": "SAN",
+      "reason": "!SAN 11/048 SAN AD AP CLSD 2611160900-2611161400",
+      "reopen": "Nov 16 at 14:00 UTC.",
+      "start": "Nov 16 at 09:00 UTC."
     },
-    "type": "Arrival/Departure Delay"
-  },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "avg": "2 hours and 20 minutes",
-      "max": "7 hours and 7 minutes",
-      "reason": "low ceilings"
-    },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
     "airport": "SNA",
