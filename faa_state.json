@@ -29,37 +29,6 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Arrival/Departure Delay|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "44 minutes",
-      "max": "2 hours and 3 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "avg": "1 hour and 38 minutes",
-      "max": "5 hours and 24 minutes",
-      "reason": "low ceilings"
-    },
-    "type": "Ground Delay Program"
-  },
   "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
     "airport": "SNA",
     "fields": {
