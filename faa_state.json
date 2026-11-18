@@ -19,13 +19,13 @@
     },
     "type": "Airport Closure"
   },
-  "LAX|Arrival/Departure Delay|": {
-    "airport": "LAX",
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
     "fields": {
-      "arpt": "LAX",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "VOL:Compacted Demand",
+      "arpt": "MIA",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "TM Initiatives:MIT:WX",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -39,6 +39,17 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
+  },
+  "SAN|Arrival/Departure Delay|": {
+    "airport": "SAN",
+    "fields": {
+      "arpt": "SAN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "VOL:Compacted Demand",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
     "airport": "SNA",
