@@ -1,25 +1,4 @@
 {
-  "AUS|Ground Delay Program|": {
-    "airport": "AUS",
-    "fields": {
-      "arpt": "AUS",
-      "avg": "54 minutes",
-      "max": "4 hours and 32 minutes",
-      "reason": "low ceilings"
-    },
-    "type": "Ground Delay Program"
-  },
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "RWY:Maintenance",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -29,6 +8,16 @@
       "start": "Oct 28 at 19:26 UTC."
     },
     "type": "Airport Closure"
+  },
+  "LAS|Ground Delay Program|": {
+    "airport": "LAS",
+    "fields": {
+      "arpt": "LAS",
+      "avg": "47 minutes",
+      "max": "1 hour and 29 minutes",
+      "reason": "low ceilings"
+    },
+    "type": "Ground Delay Program"
   },
   "LAX|Airport Closure|!LAX 05/277 LAX AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR CTC ATLANTIC AVIATION 310-258-9884 OR SIGNATURE AVIATION 310-410-9605 2605271826-2705281600|May 27 at 18:26 UTC.": {
     "airport": "LAX",
@@ -40,28 +29,6 @@
     },
     "type": "Airport Closure"
   },
-  "MCO|Arrival/Departure Delay|": {
-    "airport": "MCO",
-    "fields": {
-      "arpt": "MCO",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
     "fields": {
@@ -72,34 +39,12 @@
     },
     "type": "Airport Closure"
   },
-  "SEA|Arrival/Departure Delay|": {
-    "airport": "SEA",
-    "fields": {
-      "arpt": "SEA",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "RWY:Construction",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "SFO|Arrival/Departure Delay|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Multi-taxi",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "SFO|Ground Delay Program|": {
     "airport": "SFO",
     "fields": {
       "arpt": "SFO",
-      "avg": "55 minutes",
-      "max": "2 hours and 15 minutes",
+      "avg": "1 hour and 20 minutes",
+      "max": "5 hours and 31 minutes",
       "reason": "LOW"
     },
     "type": "Ground Delay Program"
