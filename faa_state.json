@@ -1,15 +1,4 @@
 {
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -30,16 +19,15 @@
     },
     "type": "Airport Closure"
   },
-  "OPF|Arrival/Departure Delay|": {
-    "airport": "OPF",
+  "ORD|Ground Delay Program|": {
+    "airport": "ORD",
     "fields": {
-      "arpt": "OPF",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
+      "arpt": "ORD",
+      "avg": "51 minutes",
+      "max": "1 hour and 40 minutes",
+      "reason": "other"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -51,37 +39,15 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "25 minutes",
-      "max": "1 hour and 37 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
-  "SEA|Arrival/Departure Delay|": {
+  "SEA|Ground Delay Program|": {
     "airport": "SEA",
     "fields": {
       "arpt": "SEA",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Low Visibility",
-      "trend": "Increasing"
+      "avg": "57 minutes",
+      "max": "1 hour and 28 minutes",
+      "reason": "runway construction"
     },
-    "type": "Arrival/Departure Delay"
-  },
-  "SFO|Arrival/Departure Delay|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "RWY:Rwy Change - Operational Necessity",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
     "airport": "SNA",
@@ -92,27 +58,5 @@
       "start": "Nov 15 at 07:30 UTC."
     },
     "type": "Airport Closure"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "VOL:Volume",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "TPA|Arrival/Departure Delay|": {
-    "airport": "TPA",
-    "fields": {
-      "arpt": "TPA",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
