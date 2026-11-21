@@ -1,45 +1,25 @@
 {
-  "DEN|Arrival/Departure Delay|": {
-    "airport": "DEN",
-    "fields": {
-      "arpt": "DEN",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "ZDV / WX:Wind",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "FLL|Arrival/Departure Delay|": {
     "airport": "FLL",
     "fields": {
       "arpt": "FLL",
-      "max": "1 hour and 30 minutes",
-      "min": "1 hour and 16 minutes",
+      "max": "59 minutes",
+      "min": "45 minutes",
       "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
-  "HTS|Airport Closure|!HTS 11/044 HTS AD AP CLSD EXC 20MIN PPR 122.950/304-453-6165 2611211200-2611212200|Nov 21 at 12:00 UTC.": {
-    "airport": "HTS",
+  "FMY|Arrival/Departure Delay|": {
+    "airport": "FMY",
     "fields": {
-      "arpt": "HTS",
-      "reason": "!HTS 11/044 HTS AD AP CLSD EXC 20MIN PPR 122.950/304-453-6165 2611211200-2611212200",
-      "reopen": "Nov 21 at 22:00 UTC.",
-      "start": "Nov 21 at 12:00 UTC."
+      "arpt": "FMY",
+      "max": "1 hour and 15 minutes",
+      "min": "1 hour and 1 minute",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
     },
-    "type": "Airport Closure"
-  },
-  "HTS|Airport Closure|!HTS 11/047 HTS AD AP CLSD EXC SKED ACFT AND AIR CARRIERS 20MIN PPR 122.950/304-453-6165 2611211500-2611212300|Nov 21 at 15:00 UTC.": {
-    "airport": "HTS",
-    "fields": {
-      "arpt": "HTS",
-      "reason": "!HTS 11/047 HTS AD AP CLSD EXC SKED ACFT AND AIR CARRIERS 20MIN PPR 122.950/304-453-6165 2611211500-2611212300",
-      "reopen": "Nov 21 at 23:00 UTC.",
-      "start": "Nov 21 at 15:00 UTC."
-    },
-    "type": "Airport Closure"
+    "type": "Arrival/Departure Delay"
   },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
@@ -61,24 +41,25 @@
     },
     "type": "Airport Closure"
   },
-  "LGA|Ground Delay Program|": {
-    "airport": "LGA",
+  "MCO|Arrival/Departure Delay|": {
+    "airport": "MCO",
     "fields": {
-      "arpt": "LGA",
-      "avg": "22 minutes",
-      "max": "52 minutes",
-      "reason": "runway construction"
-    },
-    "type": "Ground Delay Program"
-  },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
+      "arpt": "MCO",
       "max": "1 hour",
       "min": "46 minutes",
       "reason": "TM Initiatives:MIT:WX",
       "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "RSW|Arrival/Departure Delay|": {
+    "airport": "RSW",
+    "fields": {
+      "arpt": "RSW",
+      "max": "44 minutes",
+      "min": "30 minutes",
+      "reason": "VOL:Volume",
+      "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
   },
@@ -91,26 +72,5 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SFO|Ground Delay Program|": {
-    "airport": "SFO",
-    "fields": {
-      "arpt": "SFO",
-      "avg": "36 minutes",
-      "max": "2 hours and 9 minutes",
-      "reason": "low ceilings"
-    },
-    "type": "Ground Delay Program"
-  },
-  "TPA|Arrival/Departure Delay|": {
-    "airport": "TPA",
-    "fields": {
-      "arpt": "TPA",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   }
 }
