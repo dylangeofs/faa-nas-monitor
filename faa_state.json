@@ -19,15 +19,15 @@
     },
     "type": "Airport Closure"
   },
-  "ORD|Ground Delay Program|": {
-    "airport": "ORD",
+  "PNS|Airport Closure|!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100|Nov 21 at 06:00 UTC.": {
+    "airport": "PNS",
     "fields": {
-      "arpt": "ORD",
-      "avg": "51 minutes",
-      "max": "1 hour and 40 minutes",
-      "reason": "other"
+      "arpt": "PNS",
+      "reason": "!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100",
+      "reopen": "Nov 21 at 11:00 UTC.",
+      "start": "Nov 21 at 06:00 UTC."
     },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -39,15 +39,15 @@
     },
     "type": "Airport Closure"
   },
-  "SEA|Ground Delay Program|": {
-    "airport": "SEA",
+  "SBP|Airport Closure|!SBP 11/024 SBP AD AP CLSD 2611210727-2611211300|Nov 21 at 07:27 UTC.": {
+    "airport": "SBP",
     "fields": {
-      "arpt": "SEA",
-      "avg": "57 minutes",
-      "max": "1 hour and 28 minutes",
-      "reason": "runway construction"
+      "arpt": "SBP",
+      "reason": "!SBP 11/024 SBP AD AP CLSD 2611210727-2611211300",
+      "reopen": "Nov 21 at 13:00 UTC.",
+      "start": "Nov 21 at 07:27 UTC."
     },
-    "type": "Ground Delay Program"
+    "type": "Airport Closure"
   },
   "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
     "airport": "SNA",
