@@ -1,4 +1,46 @@
 {
+  "DEN|Arrival/Departure Delay|": {
+    "airport": "DEN",
+    "fields": {
+      "arpt": "DEN",
+      "max": "30 minutes",
+      "min": "16 minutes",
+      "reason": "ZDV / WX:Wind",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "FLL|Arrival/Departure Delay|": {
+    "airport": "FLL",
+    "fields": {
+      "arpt": "FLL",
+      "max": "1 hour and 30 minutes",
+      "min": "1 hour and 16 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
+  },
+  "HTS|Airport Closure|!HTS 11/044 HTS AD AP CLSD EXC 20MIN PPR 122.950/304-453-6165 2611211200-2611212200|Nov 21 at 12:00 UTC.": {
+    "airport": "HTS",
+    "fields": {
+      "arpt": "HTS",
+      "reason": "!HTS 11/044 HTS AD AP CLSD EXC 20MIN PPR 122.950/304-453-6165 2611211200-2611212200",
+      "reopen": "Nov 21 at 22:00 UTC.",
+      "start": "Nov 21 at 12:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "HTS|Airport Closure|!HTS 11/047 HTS AD AP CLSD EXC SKED ACFT AND AIR CARRIERS 20MIN PPR 122.950/304-453-6165 2611211500-2611212300|Nov 21 at 15:00 UTC.": {
+    "airport": "HTS",
+    "fields": {
+      "arpt": "HTS",
+      "reason": "!HTS 11/047 HTS AD AP CLSD EXC SKED ACFT AND AIR CARRIERS 20MIN PPR 122.950/304-453-6165 2611211500-2611212300",
+      "reopen": "Nov 21 at 23:00 UTC.",
+      "start": "Nov 21 at 15:00 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -19,15 +61,26 @@
     },
     "type": "Airport Closure"
   },
-  "PNS|Airport Closure|!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100|Nov 21 at 06:00 UTC.": {
-    "airport": "PNS",
+  "LGA|Ground Delay Program|": {
+    "airport": "LGA",
     "fields": {
-      "arpt": "PNS",
-      "reason": "!PNS 11/069 PNS AD AP CLSD EXC HEL OPS 2611210600-2611211100",
-      "reopen": "Nov 21 at 11:00 UTC.",
-      "start": "Nov 21 at 06:00 UTC."
+      "arpt": "LGA",
+      "avg": "22 minutes",
+      "max": "52 minutes",
+      "reason": "runway construction"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
+  },
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
+    "fields": {
+      "arpt": "MIA",
+      "max": "1 hour",
+      "min": "46 minutes",
+      "reason": "TM Initiatives:MIT:WX",
+      "trend": "Increasing"
+    },
+    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -39,24 +92,25 @@
     },
     "type": "Airport Closure"
   },
-  "SBP|Airport Closure|!SBP 11/024 SBP AD AP CLSD 2611210727-2611211300|Nov 21 at 07:27 UTC.": {
-    "airport": "SBP",
+  "SFO|Ground Delay Program|": {
+    "airport": "SFO",
     "fields": {
-      "arpt": "SBP",
-      "reason": "!SBP 11/024 SBP AD AP CLSD 2611210727-2611211300",
-      "reopen": "Nov 21 at 13:00 UTC.",
-      "start": "Nov 21 at 07:27 UTC."
+      "arpt": "SFO",
+      "avg": "36 minutes",
+      "max": "2 hours and 9 minutes",
+      "reason": "low ceilings"
     },
-    "type": "Airport Closure"
+    "type": "Ground Delay Program"
   },
-  "SNA|Airport Closure|!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415|Nov 15 at 07:30 UTC.": {
-    "airport": "SNA",
+  "TPA|Arrival/Departure Delay|": {
+    "airport": "TPA",
     "fields": {
-      "arpt": "SNA",
-      "reason": "!SNA 11/020 SNA AD AP CLSD DLY 0730-1415 2611150730-2611211415",
-      "reopen": "Nov 21 at 14:15 UTC.",
-      "start": "Nov 15 at 07:30 UTC."
+      "arpt": "TPA",
+      "max": "1 hour",
+      "min": "46 minutes",
+      "reason": "WX:Thunderstorms",
+      "trend": "Increasing"
     },
-    "type": "Airport Closure"
+    "type": "Arrival/Departure Delay"
   }
 }
