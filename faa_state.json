@@ -3,20 +3,9 @@
     "airport": "DJT",
     "fields": {
       "arpt": "DJT",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "EWR|Arrival/Departure Delay|": {
-    "airport": "EWR",
-    "fields": {
-      "arpt": "EWR",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "OTHER: AIRSPACE SHARING WITH N90",
+      "max": "45 minutes",
+      "min": "31 minutes",
+      "reason": "VOL: ZJX",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
@@ -25,8 +14,8 @@
     "airport": "EWR",
     "fields": {
       "arpt": "EWR",
-      "avg": "1 hour and 55 minutes",
-      "max": "2 hours and 59 minutes",
+      "avg": "1 hour and 45 minutes",
+      "max": "5 hours and 55 minutes",
       "reason": "low ceilings"
     },
     "type": "Ground Delay Program"
@@ -55,55 +44,11 @@
     "airport": "LGA",
     "fields": {
       "arpt": "LGA",
-      "avg": "2 hours and 28 minutes",
-      "max": "6 hours and 2 minutes",
+      "avg": "3 hours and 19 minutes",
+      "max": "6 hours and 59 minutes",
       "reason": "low visibility"
     },
     "type": "Ground Delay Program"
-  },
-  "MIA|Arrival/Departure Delay|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "TM Initiatives:MIT:VOL",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "ORD|Arrival/Departure Delay|": {
-    "airport": "ORD",
-    "fields": {
-      "arpt": "ORD",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "WX:Low Ceilings",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "PHX|Arrival/Departure Delay|": {
-    "airport": "PHX",
-    "fields": {
-      "arpt": "PHX",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "TM Initiatives:MIT:VOL",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "RSW|Arrival/Departure Delay|": {
-    "airport": "RSW",
-    "fields": {
-      "arpt": "RSW",
-      "max": "30 minutes",
-      "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -115,34 +60,13 @@
     },
     "type": "Airport Closure"
   },
-  "SAN|Arrival/Departure Delay|": {
-    "airport": "SAN",
+  "SRQ|Arrival/Departure Delay|": {
+    "airport": "SRQ",
     "fields": {
-      "arpt": "SAN",
+      "arpt": "SRQ",
       "max": "30 minutes",
       "min": "16 minutes",
-      "reason": "VOL:Compacted Demand",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "33 minutes",
-      "max": "1 hour and 15 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
-  },
-  "TEB|Arrival/Departure Delay|": {
-    "airport": "TEB",
-    "fields": {
-      "arpt": "TEB",
-      "max": "1 hour",
-      "min": "46 minutes",
-      "reason": "TM Initiatives:Metering:RWY",
+      "reason": "TM Initiatives:DSP:VOL",
       "trend": "Increasing"
     },
     "type": "Arrival/Departure Delay"
