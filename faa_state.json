@@ -1,26 +1,4 @@
 {
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "max": "59 minutes",
-      "min": "45 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "FMY|Arrival/Departure Delay|": {
-    "airport": "FMY",
-    "fields": {
-      "arpt": "FMY",
-      "max": "1 hour and 15 minutes",
-      "min": "1 hour and 1 minute",
-      "reason": "WX:Thunderstorms",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -41,24 +19,13 @@
     },
     "type": "Airport Closure"
   },
-  "MCO|Arrival/Departure Delay|": {
-    "airport": "MCO",
+  "MIA|Arrival/Departure Delay|": {
+    "airport": "MIA",
     "fields": {
-      "arpt": "MCO",
-      "max": "1 hour",
-      "min": "46 minutes",
+      "arpt": "MIA",
+      "max": "29 minutes",
+      "min": "15 minutes",
       "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
-  "RSW|Arrival/Departure Delay|": {
-    "airport": "RSW",
-    "fields": {
-      "arpt": "RSW",
-      "max": "44 minutes",
-      "min": "30 minutes",
-      "reason": "VOL:Volume",
       "trend": "Decreasing"
     },
     "type": "Arrival/Departure Delay"
