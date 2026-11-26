@@ -1,4 +1,24 @@
 {
+  "HNL|Airport Closure|!HNL 11/427 HNL AD AP CLSD TO V-22 VTOL 2611261248-2712291800|Nov 26 at 12:48 UTC.": {
+    "airport": "HNL",
+    "fields": {
+      "arpt": "HNL",
+      "reason": "!HNL 11/427 HNL AD AP CLSD TO V-22 VTOL 2611261248-2712291800",
+      "reopen": "Dec 29 at 18:00 UTC.",
+      "start": "Nov 26 at 12:48 UTC."
+    },
+    "type": "Airport Closure"
+  },
+  "HNL|Airport Closure|!HNL 11/428 HNL AD AP CLSD TO F-35 VTOL 2611261248-2712291800|Nov 26 at 12:48 UTC.": {
+    "airport": "HNL",
+    "fields": {
+      "arpt": "HNL",
+      "reason": "!HNL 11/428 HNL AD AP CLSD TO F-35 VTOL 2611261248-2712291800",
+      "reopen": "Dec 29 at 18:00 UTC.",
+      "start": "Nov 26 at 12:48 UTC."
+    },
+    "type": "Airport Closure"
+  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -18,16 +38,6 @@
       "start": "May 27 at 18:26 UTC."
     },
     "type": "Airport Closure"
-  },
-  "MIA|Ground Delay Program|": {
-    "airport": "MIA",
-    "fields": {
-      "arpt": "MIA",
-      "avg": "3 hours and 34 minutes",
-      "max": "5 hours and 52 minutes",
-      "reason": "disabled aircraft on the runway"
-    },
-    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
