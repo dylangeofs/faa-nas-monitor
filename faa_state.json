@@ -1,15 +1,4 @@
 {
-  "FLL|Arrival/Departure Delay|": {
-    "airport": "FLL",
-    "fields": {
-      "arpt": "FLL",
-      "max": "29 minutes",
-      "min": "15 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Decreasing"
-    },
-    "type": "Arrival/Departure Delay"
-  },
   "LAS|Airport Closure|!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300|Oct 28 at 19:26 UTC.": {
     "airport": "LAS",
     "fields": {
@@ -30,16 +19,15 @@
     },
     "type": "Airport Closure"
   },
-  "MIA|Arrival/Departure Delay|": {
+  "MIA|Ground Delay Program|": {
     "airport": "MIA",
     "fields": {
       "arpt": "MIA",
-      "max": "45 minutes",
-      "min": "31 minutes",
-      "reason": "TM Initiatives:MIT:WX",
-      "trend": "Increasing"
+      "avg": "3 hours and 34 minutes",
+      "max": "5 hours and 52 minutes",
+      "reason": "disabled aircraft on the runway"
     },
-    "type": "Arrival/Departure Delay"
+    "type": "Ground Delay Program"
   },
   "SAN|Airport Closure|!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800|Oct 01 at 16:33 UTC.": {
     "airport": "SAN",
@@ -50,15 +38,5 @@
       "start": "Oct 01 at 16:33 UTC."
     },
     "type": "Airport Closure"
-  },
-  "SAN|Ground Delay Program|": {
-    "airport": "SAN",
-    "fields": {
-      "arpt": "SAN",
-      "avg": "27 minutes",
-      "max": "1 hour and 10 minutes",
-      "reason": "airport volume"
-    },
-    "type": "Ground Delay Program"
   }
 }
